@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurquoiseOpus | Art Studio Amsterdam</title>
+    <meta name="description" content="Original paintings, fine art prints, and digital downloads by TurquoiseOpus Studio Amsterdam. 300gsm cold press watercolor, charcoal, and acrylic marker art.">
+    
+    <!-- Fonts: Playfair Display (Serif) & Inter (Sans-Serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        /* ==========================================================================
+           1. DESIGN SYSTEM & COLOR PALETTE (7-B/C, 25-A)
+           ========================================================================== */
+        :root {
+            --bg-gallery: #F9F8F6;       /* Warm Gallery Off-White */
+            --text-charcoal: #1A1D20;    /* Dark Charcoal */
+            --accent-turquoise: #00A896; /* Crisp Turquoise */
+            --accent-brass: #C5A059;     /* Fine Muted Brass Gold */
+            --paspartu-cream: #F4F1EA;   /* 300g Cold Press Cream Tone */
+            --font-serif: 'Playfair Display', Georgia, serif;
+            --font-sans: 'Inter', -apple-system, sans-serif;
+            --brass-border: 1px solid rgba(197, 160, 89, 0.4);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            user-select: none; /* Prevents raw image copying */
+            -webkit-user-drag: none;
+        }
+
+        body {
+            background-color: var(--bg-gallery);
+            color: var(--text-charcoal);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* ==========================================================================
+           2. HEADER & NAVIGATION (11 - 3 Language Switcher & Logo Variation B)
+           ========================================================================== */
+        header {
+            position: sticky;
+            top: 0;
+            background-color: rgba(249, 248, 246, 0.95);
+            backdrop-filter: blur(8px);
+            z-index: 1000;
+            border-bottom: var(--brass-border);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            text-decoration: none;
+            color: var(--text-charcoal);
+        }
+
+        .logo-svg {
+            width: 52px;
+            height: 52px;
+        }
+
+        .brand-title {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            letter-spacing: 0.2em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .brand-sub {
+            font-size: 0.65rem;
+            letter-spacing: 0.25em;
+            color: var(--accent-brass);
+            text-transform: uppercase;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text-charcoal);
+            font-size: 0.85rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent-turquoise);
+        }
+
+        /* Language Switcher */
+        .lang-switcher {
+            display: flex;
+            gap: 0.5rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            border-left: var(--brass-border);
+            padding-left: 1rem;
+        }
+
+        .lang-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-charcoal);
+            opacity: 0.5;
+            transition: opacity 0.3s;
+        }
+
+        .lang-btn.active {
+            opacity: 1;
+            color: var(--accent-turquoise);
+            font-weight: 600;
+        }
+
+        /* ==========================================================================
+           3. HERO BANNER (10-A)
+           ========================================================================== */
+        .hero {
+            padding: 5rem 2rem;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-family: var(--font-serif);
+            font-size: 2.75rem;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.05rem;
+            color: #555;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 0.85rem 2rem;
+            background-color: var(--text-charcoal);
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.8rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            border: 1px solid var(--text-charcoal);
+            transition: all 0.3s;
+        }
+
+        .cta-btn:hover {
+            background-color: transparent;
+            color: var(--text-charcoal);
+            border-color: var(--accent-brass);
+        }
+
+        /* ==========================================================================
+           4. GALLERY & SERIES FILTER (4-B, 9-A)
+           ========================================================================== */
+        .gallery-section {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .series-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            border-bottom: 1px solid #E5E2DC;
+            padding-bottom: 1rem;
+        }
+
+        .tab-btn {
+            background: none;
+            border: none;
+            font-size: 0.85rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            cursor: pointer;
+            padding-bottom: 0.5rem;
+            color: #777;
+            position: relative;
+        }
+
+        .tab-btn.active {
+            color: var(--text-charcoal);
+            font-weight: 600;
+        }
+
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1rem;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--accent-turquoise);
+        }
+
+        .artwork-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 3rem;
+        }
+
+        /* Card with Brass Frame & Watermark Security (19-B, 24-B) */
+        .artwork-card {
+            background-color: #fff;
+            padding: 1.5rem;
+            border: 1px solid #EAE7E1;
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+
+        .artwork-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+        }
+
+        /* Brass Frame Simulation (19-B) */
+        .brass-frame-container {
+            border: 3px solid var(--accent-brass);
+            padding: 1.25rem;
+            background-color: var(--paspartu-cream); /* Off-white Paspartu (25-A) */
+            position: relative;
+            overflow: hidden;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.08);
+        }
+
+        /* Transparent Overlay & Security (24-B) */
+        .security-overlay {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 4/5;
+            overflow: hidden;
+        }
+
+        .security-overlay img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            pointer-events: none; /* Prevents drag */
+        }
+
+        /* Transparent Click Shield */
+        .security-shield {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255,255,255,0);
+            z-index: 10;
+        }
+
+        /* Watermark (24-B) */
+        .watermark {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 0.65rem;
+            letter-spacing: 0.1em;
+            color: rgba(26, 29, 32, 0.35);
+            z-index: 11;
+            pointer-events: none;
+            font-family: var(--font-serif);
+        }
+
+        .artwork-info {
+            margin-top: 1.5rem;
+        }
+
+        .artwork-title {
+            font-family: var(--font-serif);
+            font-size: 1.35rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .artwork-meta {
+            font-size: 0.75rem;
+            color: #777;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+        }
+
+        /* Variant Selection Box (5-C) */
+        .variant-box {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            background-color: var(--bg-gallery);
+            padding: 0.85rem;
+            border-radius: 4px;
+            margin-bottom: 1.2rem;
+            font-size: 0.8rem;
+        }
+
+        .variant-option {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .variant-option input {
+            accent-color: var(--accent-turquoise);
+        }
+
+        .etsy-buy-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 0.75rem;
+            background-color: var(--accent-turquoise);
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+
+        .etsy-buy-btn:hover {
+            background-color: #008B8B;
+        }
+
+        /* Authenticity Notice (20-B) */
+        .authenticity-note {
+            font-size: 0.7rem;
+            color: var(--accent-brass);
+            margin-top: 0.5rem;
+            text-align: center;
+        }
+
+        /* ==========================================================================
+           5. NEXT SERIES LAUNCH & EMAIL CAPTURE (23-C, 27-B)
+           ========================================================================== */
+        .next-series-section {
+            background-color: #1A1D20;
+            color: #fff;
+            padding: 5rem 2rem;
+            margin-top: 5rem;
+            text-align: center;
+        }
+
+        .next-series-content {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .next-series-section h2 {
+            font-family: var(--font-serif);
+            font-size: 2.25rem;
+            color: var(--accent-brass);
+            margin-bottom: 1rem;
+        }
+
+        .next-series-section p {
+            font-weight: 300;
+            font-size: 0.95rem;
+            color: #ccc;
+            margin-bottom: 2rem;
+        }
+
+        .email-form {
+            display: flex;
+            gap: 0.5rem;
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        .email-input {
+            flex: 1;
+            padding: 0.85rem 1rem;
+            border: 1px solid var(--accent-brass);
+            background: rgba(255,255,255,0.05);
+            color: #fff;
+            font-size: 0.85rem;
+        }
+
+        .email-input:focus {
+            outline: none;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .submit-btn {
+            padding: 0.85rem 1.5rem;
+            background-color: var(--accent-brass);
+            color: #1A1D20;
+            border: none;
+            font-weight: 600;
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit-btn:hover {
+            background-color: #D4AF66;
+        }
+
+        .coupon-reward {
+            display: none;
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: rgba(0, 168, 150, 0.15);
+            border: 1px solid var(--accent-turquoise);
+            color: #40E0D0;
+            font-size: 0.85rem;
+        }
+
+        /* ==========================================================================
+           6. SOCIAL PROOF / REVIEWS SLIDER (26-A)
+           ========================================================================== */
+        .reviews-section {
+            padding: 5rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .reviews-section h3 {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .review-card {
+            background: #fff;
+            padding: 2rem;
+            border: var(--brass-border);
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .review-stars {
+            color: var(--accent-brass);
+            margin-bottom: 0.5rem;
+        }
+
+        .review-author {
+            font-style: normal;
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-top: 1rem;
+            color: #777;
+        }
+
+        /* ==========================================================================
+           7. ULTRA MINIMALIST FOOTER (16-B)
+           ========================================================================== */
+        footer {
+            border-top: var(--brass-border);
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #777;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .social-links a {
+            color: var(--text-charcoal);
+            text-decoration: none;
+            margin-left: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--accent-turquoise);
+        }
+    </style>
+</head>
+<body oncontextmenu="return false;"> <!-- Global Right-Click Disable (24-B) -->
+
+    <!-- HEADER (11 - 3 Languages & SVG Logo Variation B) -->
+    <header>
+        <a href="#" class="logo-container">
+            <!-- Variation B: Perfect Circles + Thick Linear 't' -->
+            <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="37" cy="50" r="27" stroke="#1A1D20" stroke-width="1.6" opacity="0.85"/>
+                <circle cx="63" cy="50" r="27" stroke="#1A1D20" stroke-width="1.6" opacity="0.85"/>
+                <line x1="14" y1="43" x2="86" y2="43" stroke="#C5A059" stroke-width="1.6"/>
+                <line x1="50" y1="33" x2="50" y2="67" stroke="#00A896" stroke-width="7" stroke-linecap="round"/>
+                <line x1="45" y1="67" x2="55" y2="67" stroke="#C5A059" stroke-width="3"/>
+                <circle cx="50" cy="33" r="2.5" fill="#C5A059"/>
+            </svg>
+            <div>
+                <div class="brand-title">TurquoiseOpus</div>
+                <div class="brand-sub">Fine Art Studio · Amsterdam</div>
+            </div>
+        </a>
+
+        <nav>
+            <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+            <a href="#about" data-i18n="nav_about">About</a>
+            <a href="#next-series" data-i18n="nav_launch">Upcoming Series</a>
+        </nav>
+
+        <div class="lang-switcher">
+            <button class="lang-btn active" onclick="setLanguage('en')">EN</button> |
+            <button class="lang-btn" onclick="setLanguage('nl')">NL</button> |
+            <button class="lang-btn" onclick="setLanguage('tr')">TR</button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (10-A) -->
+    <section class="hero">
+        <h1 data-i18n="hero_title">Original Fine Art & Museum-Grade Prints</h1>
+        <p data-i18n="hero_desc">Handcrafted in Amsterdam on 300gsm cold press paper using watercolor, charcoal, and acrylic marker.</p>
+        <a href="#gallery" class="cta-btn" data-i18n="hero_cta">Explore Collection</a>
+    </section>
+
+    <!-- GALLERY SECTION (4-B, 5-C, 19-B) -->
+    <section class="gallery-section" id="gallery">
+        <div class="series-tabs">
+            <button class="tab-btn active" onclick="filterSeries('all')" data-i18n="tab_all">All Works</button>
+            <button class="tab-btn" onclick="filterSeries('watercolor')" data-i18n="tab_watercolor">Watercolor Series</button>
+            <button class="tab-btn" onclick="filterSeries('charcoal')" data-i18n="tab_charcoal">Charcoal</button>
+            <button class="tab-btn" onclick="filterSeries('acrylic')" data-i18n="tab_acrylic">Acrylic Marker</button>
+        </div>
+
+        <div class="artwork-grid" id="artwork-grid">
+            <!-- Sample Artwork Card 1 -->
+            <div class="artwork-card" data-category="watercolor">
+                <!-- Brass Frame & Krem Paspartu Mockup (19-B, 25-A) -->
+                <div class="brass-frame-container">
+                    <div class="security-overlay">
+                        <div class="security-shield"></div>
+                        <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80" alt="Botanical Watercolor">
+                        <div class="watermark">© TurquoiseOpus</div>
+                    </div>
+                </div>
+                
+                <div class="artwork-info">
+                    <div class="artwork-title">Botanical Serenade I</div>
+                    <div class="artwork-meta">Watercolor on 300g Cold Press · A4</div>
+
+                    <!-- Variant Selection Box (5-C) -->
+                    <div class="variant-box">
+                        <label class="variant-option">
+                            <span><input type="radio" name="var1" checked> Original Artwork</span>
+                            <b>€150</b>
+                        </label>
+                        <label class="variant-option">
+                            <span><input type="radio" name="var1"> Fine Art Print (A4)</span>
+                            <b>€25</b>
+                        </label>
+                        <label class="variant-option">
+                            <span><input type="radio" name="var1"> Digital Download (600 DPI)</span>
+                            <b>€12</b>
+                        </label>
+                    </div>
+
+                    <!-- Etsy Redirect Link (1-B) -->
+                    <a href="https://etsy.com" target="_blank" class="etsy-buy-btn" data-i18n="buy_etsy">Buy Securely via Etsy</a>
+                    <div class="authenticity-note" data-i18n="auth_note">✔ Hand-Signed & Certified by Artist</div>
+                </div>
+            </div>
+
+            <!-- Sample Artwork Card 2 -->
+            <div class="artwork-card" data-category="charcoal">
+                <div class="brass-frame-container">
+                    <div class="security-overlay">
+                        <div class="security-shield"></div>
+                        <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=800&q=80" alt="Charcoal Portrait">
+                        <div class="watermark">© TurquoiseOpus</div>
+                    </div>
+                </div>
+                
+                <div class="artwork-info">
+                    <div class="artwork-title">Amsterdam Shadow Play</div>
+                    <div class="artwork-meta">Charcoal & Chalk on 300g Cold Press · A5</div>
+
+                    <div class="variant-box">
+                        <label class="variant-option">
+                            <span><input type="radio" name="var2" checked> Original Artwork</span>
+                            <b>€110</b>
+                        </label>
+                        <label class="variant-option">
+                            <span><input type="radio" name="var2"> Fine Art Print (A5)</span>
+                            <b>€20</b>
+                        </label>
+                        <label class="variant-option">
+                            <span><input type="radio" name="var2"> Digital Download (600 DPI)</span>
+                            <b>€10</b>
+                        </label>
+                    </div>
+
+                    <a href="https://etsy.com" target="_blank" class="etsy-buy-btn" data-i18n="buy_etsy">Buy Securely via Etsy</a>
+                    <div class="authenticity-note" data-i18n="auth_note">✔ Hand-Signed & Certified by Artist</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS SLIDER (26-A) -->
+    <section class="reviews-section">
+        <h3 data-i18n="reviews_title">Collector Reviews</h3>
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p>"The paper texture and color depth of the original piece are even more breathtaking in person. Shipped safely to Utrecht in eco-friendly packaging!"</p>
+            <div class="review-author">— Sophie V., Utrecht (Verified Etsy Purchase)</div>
+        </div>
+    </section>
+
+    <!-- UPCOMING SERIES LAUNCH & EMAIL CAPTURE (23-C, 27-B) -->
+    <section class="next-series-section" id="next-series">
+        <div class="next-series-content">
+            <h2 data-i18n="launch_title">Next Collection Launch</h2>
+            <p data-i18n="launch_desc">Subscribe to gain 24-hour early VIP access before the new series is publicly released on Etsy.</p>
+            
+            <form class="email-form" onsubmit="handleSubscribe(event)">
+                <input type="email" id="email-input" class="email-input" placeholder="Enter your email address" required>
+                <button type="submit" class="submit-btn" data-i18n="launch_btn">Get VIP Access</button>
+            </form>
+
+            <div id="coupon-reward" class="coupon-reward">
+                🎉 <b data-i18n="coupon_success">VIP Access Granted!</b><br>
+                <span data-i18n="coupon_code_txt">Use code <b>WELCOME10</b> for 10% off your first Etsy purchase.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (16-B) -->
+    <footer>
+        <div>© 2026 TurquoiseOpus Atelier. All rights reserved.</div>
+        <div class="social-links">
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://etsy.com" target="_blank">Etsy Shop</a>
+        </div>
+    </footer>
+
+    <!-- I18N & LOGIC SCRIPT -->
+    <script>
+        // 3-Language Dictionary (11)
+        const i18n = {
+            en: {
+                nav_gallery: "Gallery",
+                nav_about: "About",
+                nav_launch: "Upcoming Series",
+                hero_title: "Original Fine Art & Museum-Grade Prints",
+                hero_desc: "Handcrafted in Amsterdam on 300gsm cold press paper using watercolor, charcoal, and acrylic marker.",
+                hero_cta: "Explore Collection",
+                tab_all: "All Works",
+                tab_watercolor: "Watercolor",
+                tab_charcoal: "Charcoal",
+                tab_acrylic: "Acrylic Marker",
+                buy_etsy: "Buy Securely via Etsy",
+                auth_note: "✔ Hand-Signed & Certified by Artist",
+                reviews_title: "Collector Reviews",
+                launch_title: "Next Collection Launch",
+                launch_desc: "Subscribe to gain 24-hour early VIP access before the new series is publicly released on Etsy.",
+                launch_btn: "Get VIP Access",
+                coupon_success: "VIP Access Granted!",
+                coupon_code_txt: "Use code WELCOME10 for 10% off your first Etsy purchase."
+            },
+            nl: {
+                nav_gallery: "Galerie",
+                nav_about: "Over Mij",
+                nav_launch: "Volgende Collectie",
+                hero_title: "Originele Kunst & Museumkwaliteit Prints",
+                hero_desc: "Handgemaakt in Amsterdam op 300g cold press papier met aquarel, houtskool en acrylmarker.",
+                hero_cta: "Bekijk Collectie",
+                tab_all: "Alle Werken",
+                tab_watercolor: "Aquarel",
+                tab_charcoal: "Houtskool",
+                tab_acrylic: "Acrylmarker",
+                buy_etsy: "Veilig Kopen via Etsy",
+                auth_note: "✔ Handgeboetseerd & Gecertificeerd door Kunstenaar",
+                reviews_title: "Ervaringen van Verzamelaars",
+                launch_title: "Volgende Collectie Lancering",
+                launch_desc: "Schrijf je in voor 24 uur exclusieve vroegtijdige toegang voordat de nieuwe serie op Etsy staat.",
+                launch_btn: "Krijg VIP Toegang",
+                coupon_success: "VIP Toegang Verleend!",
+                coupon_code_txt: "Gebruik code WELCOME10 voor 10% korting op je eerste Etsy bestelling."
+            },
+            tr: {
+                nav_gallery: "Galeri",
+                nav_about: "Hakkımda",
+                nav_launch: "Gelecek Seri",
+                hero_title: "Orijinal Sanat Eserleri ve Müze Kalitesinde Baskılar",
+                hero_desc: "Amsterdam atölyesinde 300 gramlık cold press kağıt üzerine suluboya, karakalem ve akrilik ile elde üretilmiştir.",
+                hero_cta: "Koleksiyonu Keşfet",
+                tab_all: "Tüm Eserler",
+                tab_watercolor: "Suluboya",
+                tab_charcoal: "Karakalem",
+                tab_acrylic: "Akrilik Marker",
+                buy_etsy: "Etsy Üzerinden Güvenle Satın Al",
+                auth_note: "✔ Sanatçı Tarafından Islak İmzalı ve Sertifikalı",
+                reviews_title: "Koleksiyoner Yorumları",
+                launch_title: "Sonraki Koleksiyon Lansmanı",
+                launch_desc: "Yeni serimiz Etsy'de satışa çıkmadan 24 saat önce VIP erişim hakkı kazanmak için e-postanızı bırakın.",
+                launch_btn: "VIP Erişim Al",
+                coupon_success: "VIP Erişiminiz Tanımlandı!",
+                coupon_code_txt: "İlk Etsy siparişinizde geçerli %10 indirim kodunuz: WELCOME10"
+            }
+        };
+
+        function setLanguage(lang) {
+            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                if (i18n[lang][key]) {
+                    element.textContent = i18n[lang][key];
+                }
+            });
+        }
+
+        // Series Filter Logic
+        function filterSeries(category) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            const cards = document.querySelectorAll('.artwork-card');
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Email Subscription & Coupon Reward (27-B)
+        function handleSubscribe(e) {
+            e.preventDefault();
+            const email = document.getElementById('email-input').value;
+            if (email) {
+                document.getElementById('coupon-reward').style.display = 'block';
+                document.querySelector('.email-form').style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
