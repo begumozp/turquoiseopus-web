@@ -1,0 +1,68 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> turquoise-opus@1.0.0 qa
+> npm test && npm run build && npm run check
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> turquoise-opus@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ emergency hide succeeds despite invalid unsaved editor input and does not discard editor (2.46125ms)
+✔ default hidden blocks media before storage is fetched (20.367099ms)
+✔ missing visibility flag fails closed (13.71359ms)
+✔ unconfigured backend fails closed (1.548664ms)
+✔ public state contains neither secret nor private metadata nor media IDs when hidden (5.292938ms)
+✔ anonymous and wrong UUID cannot manage content (3.463581ms)
+✔ CSRF cross-origin mutations rejected (2.484565ms)
+✔ only explicit engineer confirmation opens; emergency hide immediate (4.651991ms)
+✔ draft save does not publish and publish does not unhide (25.781349ms)
+✔ stale version cannot overwrite (10.285915ms)
+✔ public media when open is same-origin, non-cacheable and has no signed URL (13.705968ms)
+✔ unpublished media ID returns 404 when open (3.168285ms)
+✔ admin-only preview can view private media while global hidden (6.403973ms)
+✔ login returns HttpOnly Secure SameSite cookies, never tokens in JSON (9.932576ms)
+✔ unauthorized upload never reaches storage (2.740727ms)
+✔ oversized request is rejected before reading or storing media (3.906648ms)
+✔ forged image bytes are rejected for authenticated upload (3.831296ms)
+✔ 40 unique works; only 23 approved, duplicate captures are not works (3.82764ms)
+✔ 004 and 011 retain exact 29.7 x 21 cm; WB014 and WB015 24 x 34 (0.981439ms)
+✔ global hidden projection contains no media IDs, private QC, unpublished records or draft text (4.161393ms)
+✔ unconfirmed detail cannot be served publicly (1.297586ms)
+✔ archived or unapproved work cannot be served publicly (1.173879ms)
+✔ bulk prices only selected collection and existing size; never originals (2.211974ms)
+✔ stale bulk preview is rejected (4.699583ms)
+✔ only HTTPS exact Etsy listing URLs, no shop or script links (0.561747ms)
+✔ YouTube embeds restricted to validated IDs and known hosts (0.48431ms)
+✔ duplicate codes, negative sizes, malformed price fail validation (2.337253ms)
+✔ SVG, PDF and TIFF cannot be uploaded as image media (0.254423ms)
+✔ hidden prices are removed from public API, not only CSS (0.607075ms)
+✔ image dimensions parse PNG and malformed header returns null (0.675579ms)
+✔ home has required carousel count, navigation controls and cover link selectors (12.241862ms)
+✔ gallery hidden renders all approved records with placeholders, no source URLs (5.793452ms)
+✔ all 23 approved artwork views render in all 3 manual languages (226.888654ms)
+✔ unapproved image pages do not render media; Process starts hidden (2.881203ms)
+✔ FAQ keeps seven independent native disclosure boxes (1.476586ms)
+✔ owner-entered text is escaped, not executable markup (1.888917ms)
+✔ backup CRC32 matches standard known vector (1.225126ms)
+✔ backup ZIP has both entries in central directory and blocks unsafe paths (7.370275ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 438.663974
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> turquoise-opus@1.0.0 build
+> node scripts/build.mjs
+
+Built 36 pages + admin. Artwork files: 0 in public output.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> turquoise-opus@1.0.0 check
+> node scripts/check.mjs
+
+PASS: syntax, private asset exclusion, embedded artwork exclusion, secret scan. Files: 59

@@ -1,0 +1,3172 @@
+{
+  "schema": 1,
+  "copy": {
+    "en": {
+      "imageSoon": "Image coming soon",
+      "independentWorks": "Independent Works",
+      "home": "Home",
+      "collectionSoon": "Selected works will be shared here soon.",
+      "backToCollections": "Back to collections",
+      "artworkCollection": "Collection",
+      "artworkAvailable": "Available",
+      "etsyAvailability": "For current availability, please check Etsy.",
+      "shopNow": "Shop now",
+      "artworkPlaceholder": "Artwork title",
+      "artworkYear": "Year",
+      "artworkMedium": "Medium",
+      "artworkDimensions": "Dimensions (W × H)",
+      "artworkAvailability": "Availability",
+      "artworkAsk": "Please enquire",
+      "artworkEnquire": "Enquire about this artwork",
+      "artworkEnquiryNote": "For further details about this artwork.",
+      "enlarge": "Click the image to view larger",
+      "previousArtwork": "Previous artwork",
+      "nextArtwork": "Next artwork",
+      "artworkReference": "Artwork reference",
+      "contactHeading": "Let’s connect",
+      "contact": "Get in touch",
+      "contactTitle": "Get in touch",
+      "contactIntro": "For artwork enquiries, collaborations, or simply to say hello.",
+      "contactName": "Name",
+      "contactEmail": "Email",
+      "contactMessage": "Message",
+      "contactSend": "Send message",
+      "menu": "Menu",
+      "skip": "Skip to content",
+      "gallery": "Gallery",
+      "about": "About the Artist",
+      "collections": "Collections",
+      "view": "View artwork",
+      "explore": "Explore it with us.",
+      "greeting": "A world of feelings in color.",
+      "all": "All works",
+      "back": "Back to gallery",
+      "aboutTitle": "About the Artist",
+      "aboutP1": "Drawing and painting have always been part of Begüm Özpay’s life. Growing up in a family where art was a natural form of expression, she developed an enduring connection to visual storytelling.",
+      "aboutP2": "Her artistic practice begins with a desire to understand herself and extends into a broader curiosity about human experience. Through color, symbolism, and shifting forms, she explores how memory, emotion, and personal history shape the ways we see ourselves and the world around us.",
+      "aboutP3": "Many of her works begin without a predetermined composition or narrative. Each decision informs the next, allowing the piece to develop its own direction. Recurring symbols often emerge from personal and family memories, carrying meanings that evolve across different works.",
+      "aboutP4": "Recurring symbols in her work often emerge from personal and family memories, carrying meanings that evolve from one piece to another. Color plays an equally important role—not simply as a visual element, but as a language through which feelings and experiences can be explored.",
+      "aboutP5": "Rather than offering fixed interpretations, Özpay approaches each artwork as an open-ended process of discovery, leaving space for viewers’ own associations.",
+      "aboutClosing": " is where this evolving body of work comes together. She invites you to explore alongside her and discover your own colors.",
+      "faq": "FAQ",
+      "faqTitle": "Frequently asked questions",
+      "faqQ1": "Are the artworks original?",
+      "faqA1": "Visit the Turquoise Opus Etsy shop to purchase an artwork.",
+      "faqQ2": "What is the difference between an original artwork and a fine art print?",
+      "faqA2": "Please check Etsy for current availability.",
+      "faqShop": "Visit the Etsy shop",
+      "aboutMaterials": "Watercolor, ink, acrylic, and metallic accents bring different qualities into her work: fluid washes, defined lines, layered color, and surfaces that shift with the light.",
+      "faqA1P1": "Each original artwork is a unique piece created by hand by Begüm Özpay. Fine art prints of selected works are also available. Each Etsy listing clearly identifies whether the item is an original artwork or a print.",
+      "faqA2P1": "An original artwork is the physical work created by the artist, with its individual textures, details, and variations in the materials.",
+      "faqA2P2": "A fine art print is a reproduction of an original artwork, produced to represent its colours and details as faithfully as possible.",
+      "faqA2P3": "Materials, dimensions, and other specifications are provided in each Etsy listing.",
+      "faqQ3": "Are the artworks framed?",
+      "faqA3P1": "Framing varies by artwork. Some pieces may be offered framed, while others are supplied unframed.",
+      "faqA3P2": "Each Etsy listing specifies what is included. Frames shown for display purposes only are identified as such.",
+      "faqQ4": "Will the colors look exactly as they do on my screen?",
+      "faqA4P1": "Artworks are photographed and presented with care to represent their colours as accurately as possible.",
+      "faqA4P2": "Some variation may occur due to screen settings, lighting, and the natural properties of the materials. Metallic details and textured surfaces may also appear different as the light changes.",
+      "faqQ5": "Can I reproduce or resell the artwork?",
+      "faqA5P1": "Copyright and reproduction rights remain with Begüm Özpay when an original artwork or fine art print is purchased.",
+      "faqA5P2": "The physical piece may be displayed or resold by its owner. Ownership does not include the right to create reproductions.",
+      "faqA5P3": "Written permission is required to reproduce or distribute images of the artwork, or to use them commercially. Please get in touch to discuss any such use.",
+      "faqQ6": "What if my artwork arrives damaged?",
+      "faqA6P1": "If an artwork arrives damaged, please contact Begüm Özpay through Etsy as soon as possible and include photographs of the artwork and its packaging.",
+      "faqA6P2": "The issue will be reviewed to determine an appropriate resolution in accordance with Etsy’s policies and applicable consumer rights.",
+      "faqQ7": "Can I request a custom artwork?",
+      "faqA7P1": "Commission enquiries are welcome and are considered individually.",
+      "faqA7P2": "A colour palette, personal reference, memory, or initial idea can provide a starting point for the discussion.",
+      "faqA7P3": "Please send a message through Etsy to discuss the proposed work and whether it is a suitable fit for the artist’s practice.",
+      "footerExplore": "Explore",
+      "footerLinks": "Useful links",
+      "process": "Process",
+      "processTitle": "Inside the process",
+      "processIntro": "A closer look at the making of the work.",
+      "processPhotos": "In the studio",
+      "processPhotosNote": "Photographs from the creative process will be shared here.",
+      "processVideos": "In motion",
+      "processVideosNote": "Videos of the process, materials, and details will be shared here.",
+      "processNotes": "Studio notes",
+      "processNotesNote": "Reflections on materials, decisions, and discoveries will be shared here.",
+      "faqIntro": "A few useful details about the artworks, prints, and ordering.",
+      "faqMore": "Have another question?",
+      "aboutQuestion": "What colors are you right now?",
+      "faqReveal": "Discover the answer",
+      "faqBack": "Back to question",
+      "contactDeliveryNote": "This opens a draft in your email app. Review and send it there, or email the address above directly.",
+      "contactSending": "Sending…",
+      "contactDirectNote": "Your name, email address, and message will be used to respond to your enquiry.",
+      "contactSent": "Your message has been submitted. Thank you for getting in touch.",
+      "contactSendError": "We could not confirm your submission. Please try again later. Your message is still here.",
+      "contactPreviewOnly": "Messages can be sent from the published website. This preview does not send messages.",
+      "contactNotReady": "Message delivery is not available yet. You can reach the artist through Instagram or Etsy.",
+      "artworkSurface": "Surface",
+      "artworkPaperWeight": "Paper weight",
+      "artworkFraming": "Framing",
+      "surfacePaper": "Paper",
+      "surfaceAcidFree": "Acid-free paper",
+      "frameNo": "Unframed",
+      "frameYes": "Framed",
+      "mediumWatercolor": "Watercolor",
+      "mediumWatercolorInk": "Watercolor and ink on paper",
+      "mediumAcrylic": "Acrylic marker on paper",
+      "mediumAcrylicInk": "Acrylic marker and ink on paper",
+      "mediumAlcoholInk": "Alcohol marker and ink on paper",
+      "mediumMixedMarkers": "Alcohol marker, acrylic marker and ink on paper",
+      "mediumAlcohol": "Alcohol markers",
+      "mediumAlcoholPluralInk": "Alcohol markers and ink on paper",
+      "artworkDims001": "21 × 29.7 cm",
+      "artworkDimsB002": "25 × 35 cm",
+      "artworkDimsB003": "21 × 29.7 cm",
+      "artworkDims004": "29.7 × 21 cm",
+      "artworkDims005": "21 × 29.7 cm",
+      "artworkDimsB006": "21 × 29.7 cm",
+      "artworkDimsB007": "21 × 29.7 cm",
+      "artworkDimsB009": "21 × 29.7 cm",
+      "artworkDimsB010": "21 × 29.7 cm",
+      "artworkDims011": "29.7 × 21 cm",
+      "artworkDimsWB013": "29.7 × 42 cm",
+      "artworkDimsWB014": "24 × 34 cm",
+      "artworkDimsWB015": "24 × 34 cm",
+      "artworkDimsB016": "20.5 × 20.5 cm",
+      "artworkDimsB017": "20.5 × 20.5 cm",
+      "artworkDimsB018": "20.5 × 20.5 cm",
+      "artworkDims019": "20.5 × 20.5 cm",
+      "artworkDimsWB020": "20.5 × 20.5 cm",
+      "artworkDimsB021": "20.5 × 20.5 cm",
+      "artworkDimsB022": "20.5 × 20.5 cm",
+      "artworkDims023": "20.5 × 20.5 cm",
+      "artworkDimsB024": "12.7 × 17.6 cm",
+      "artworkDimsB025": "12.7 × 17.6 cm",
+      "artworkDimsB026": "12.7 × 17.6 cm",
+      "artworkDims027": "14.8 × 21 cm",
+      "artworkDims028": "14.8 × 21 cm",
+      "artworkDims029": "14.8 × 21 cm",
+      "artworkDimsB031": "29.7 × 42 cm",
+      "artworkDimsB032": "12.7 × 17.6 cm",
+      "artworkDimsB033": "12.7 × 17.6 cm",
+      "artworkDimsB034": "12.7 × 17.6 cm",
+      "artworkDimsB035": "20.5 × 20.5 cm",
+      "artworkDimsB036": "12.7 × 17.6 cm",
+      "artworkDimsAU037": "21 × 29.7 cm",
+      "artworkDimsAU038": "21 × 29.7 cm",
+      "artworkDimsAU039": "21 × 29.7 cm",
+      "artworkDims040": "21 × 29.7 cm",
+      "artworkDims041": "21 × 29.7 cm",
+      "artworkDims042": "24 × 24 cm",
+      "untitledLabel": "untitled.",
+      "enquireAvailability": "Please enquire for current availability.",
+      "contactOpenEmail": "Open email draft",
+      "artworkDimsWB030": "21 × 29.7 cm",
+      "hiddenImages": "Artwork images are currently private.",
+      "originalLabel": "Original",
+      "printsLabel": "Fine art prints",
+      "soldLabel": "Sold",
+      "privacyTitle": "Privacy",
+      "privacyText": "The studio uses a local language preference and necessary cookies for the private administrator session. No advertising or analytics tools are included. Contact messages are processed through FormSubmit to deliver your enquiry to the artist; your name, email address and message are shared with that service. YouTube videos load only when you choose to view them. Etsy and Instagram links open external services, which have their own privacy policies. Please use the contact page for questions about your information.",
+      "contactPrivacy": "Your message is delivered through FormSubmit to the artist. Your name and reply address are used to respond to your enquiry.",
+      "videoConsent": "YouTube loads only after you choose to view it."
+    },
+    "nl": {
+      "imageSoon": "Afbeelding volgt",
+      "independentWorks": "Zelfstandige werken",
+      "home": "Home",
+      "collectionSoon": "Binnenkort worden hier geselecteerde werken gedeeld.",
+      "backToCollections": "Terug naar de collecties",
+      "artworkCollection": "Collectie",
+      "artworkAvailable": "Beschikbaar",
+      "etsyAvailability": "Bekijk Etsy voor de actuele beschikbaarheid.",
+      "shopNow": "Naar Etsy",
+      "artworkPlaceholder": "Titel van het werk",
+      "artworkYear": "Jaar",
+      "artworkMedium": "Techniek",
+      "artworkDimensions": "Afmetingen (b × h)",
+      "artworkAvailability": "Beschikbaarheid",
+      "artworkAsk": "Neem contact op",
+      "artworkEnquire": "Vraag naar dit kunstwerk",
+      "artworkEnquiryNote": "Voor meer informatie over dit kunstwerk.",
+      "enlarge": "Klik op de afbeelding om te vergroten",
+      "previousArtwork": "Vorig werk",
+      "nextArtwork": "Volgend werk",
+      "artworkReference": "Referentie kunstwerk",
+      "contactHeading": "Laten we contact maken",
+      "contact": "Neem contact op",
+      "contactTitle": "Neem contact op",
+      "contactIntro": "Voor vragen over kunstwerken, samenwerkingen of gewoon om hallo te zeggen.",
+      "contactName": "Naam",
+      "contactEmail": "E-mail",
+      "contactMessage": "Bericht",
+      "contactSend": "Bericht versturen",
+      "menu": "Menu",
+      "skip": "Ga naar inhoud",
+      "gallery": "Galerie",
+      "about": "Over de kunstenaar",
+      "collections": "Collecties",
+      "view": "Bekijk het werk",
+      "explore": "Ontdek het met ons.",
+      "greeting": "Een wereld van gevoelens in kleur.",
+      "all": "Alle werken",
+      "back": "Terug naar de galerie",
+      "aboutTitle": "Over de kunstenaar",
+      "aboutP1": "Tekenen en schilderen maken al van jongs af aan deel uit van het leven van Begüm Özpay. Ze groeide op in een familie waarin kunst een vanzelfsprekende vorm van expressie was en ontwikkelde zo een blijvende band met het vertellen van verhalen in beelden.",
+      "aboutP2": "Haar artistieke praktijk begint bij het verlangen zichzelf te begrijpen en strekt zich uit tot een bredere nieuwsgierigheid naar de menselijke ervaring. Met kleur, symboliek en veranderende vormen onderzoekt ze hoe herinneringen, emoties en persoonlijke geschiedenis bepalen hoe we onszelf en de wereld om ons heen zien.",
+      "aboutP3": "Veel van haar werken beginnen zonder vooraf bepaalde compositie of verhaallijn. Elke beslissing leidt tot de volgende en laat het werk een eigen richting vinden. Terugkerende symbolen komen vaak voort uit persoonlijke en familieherinneringen en krijgen in verschillende werken nieuwe betekenissen.",
+      "aboutP4": "Terugkerende symbolen in haar werk ontstaan vaak uit persoonlijke herinneringen en familieherinneringen. Hun betekenis verandert van werk tot werk. Kleur speelt een even belangrijke rol: als visueel element én als taal waarmee gevoelens en ervaringen kunnen worden verkend.",
+      "aboutP5": "In plaats van een vaste interpretatie te geven, benadert Özpay elk kunstwerk als een open ontdekkingsproces, met ruimte voor de eigen associaties van de kijker.",
+      "aboutClosing": " brengt dit groeiende oeuvre samen. Ze nodigt je uit om met haar mee te verkennen en je eigen kleuren te ontdekken.",
+      "faq": "FAQ",
+      "faqTitle": "Veelgestelde vragen",
+      "faqQ1": "Zijn de kunstwerken origineel?",
+      "faqA1": "Bezoek de Etsy-winkel van Turquoise Opus om een kunstwerk te kopen.",
+      "faqQ2": "Wat is het verschil tussen een origineel kunstwerk en een fine art print?",
+      "faqA2": "Bekijk Etsy voor de actuele beschikbaarheid.",
+      "faqShop": "Bezoek de Etsy-winkel",
+      "aboutMaterials": "Aquarel, inkt, acryl en metallic accenten brengen verschillende kwaliteiten in haar werk: vloeiende kleurvlakken, duidelijke lijnen, gelaagde kleuren en oppervlakken die veranderen met het licht.",
+      "faqA1P1": "Elk origineel kunstwerk is een uniek werk dat Begüm Özpay met de hand heeft gemaakt. Van geselecteerde werken zijn ook fine art prints beschikbaar. Elke Etsy-productbeschrijving vermeldt duidelijk of het om een origineel kunstwerk of een print gaat.",
+      "faqA2P1": "Een origineel kunstwerk is het fysieke werk dat de kunstenaar heeft gemaakt, met de eigen texturen, details en variaties van de gebruikte materialen.",
+      "faqA2P2": "Een fine art print is een reproductie van een origineel kunstwerk, gemaakt om de kleuren en details zo getrouw mogelijk weer te geven.",
+      "faqA2P3": "Materialen, afmetingen en andere specificaties staan in de betreffende Etsy-productbeschrijving.",
+      "faqQ3": "Zijn de kunstwerken ingelijst?",
+      "faqA3P1": "Dit verschilt per kunstwerk. Sommige werken kunnen ingelijst worden aangeboden; andere worden zonder lijst geleverd.",
+      "faqA3P2": "Elke Etsy-productbeschrijving vermeldt wat is inbegrepen. Wanneer een lijst uitsluitend ter illustratie wordt getoond, wordt dit aangegeven.",
+      "faqQ4": "Zien de kleuren er precies zo uit als op mijn scherm?",
+      "faqA4P1": "De kunstwerken worden met zorg gefotografeerd en gepresenteerd om de kleuren zo nauwkeurig mogelijk weer te geven.",
+      "faqA4P2": "Er kunnen verschillen optreden door scherminstellingen, verlichting en de natuurlijke eigenschappen van de materialen. Ook metallic details en oppervlakken met textuur kunnen er anders uitzien wanneer het licht verandert.",
+      "faqQ5": "Mag ik het kunstwerk reproduceren of doorverkopen?",
+      "faqA5P1": "Bij aankoop van een origineel kunstwerk of een fine art print blijven het auteursrecht en de reproductierechten bij Begüm Özpay.",
+      "faqA5P2": "De eigenaar mag het fysieke werk tentoonstellen of doorverkopen. Het eigendom omvat niet het recht om reproducties te maken.",
+      "faqA5P3": "Voor het reproduceren of verspreiden van afbeeldingen van het werk, of voor commercieel gebruik ervan, is schriftelijke toestemming vereist. Neem contact op om een dergelijk gebruik te bespreken.",
+      "faqQ6": "Wat als mijn kunstwerk beschadigd aankomt?",
+      "faqA6P1": "Komt een kunstwerk beschadigd aan, neem dan zo snel mogelijk via Etsy contact op met Begüm Özpay en voeg foto’s van het kunstwerk en de verpakking toe.",
+      "faqA6P2": "De situatie wordt beoordeeld om tot een passende oplossing te komen, in overeenstemming met het beleid van Etsy en de toepasselijke consumentenrechten.",
+      "faqQ7": "Kan ik een kunstwerk op maat aanvragen?",
+      "faqA7P1": "Aanvragen voor werk in opdracht zijn welkom en worden individueel beoordeeld.",
+      "faqA7P2": "Een kleurenpalet, persoonlijke referentie, herinnering of eerste idee kan als uitgangspunt dienen voor het gesprek.",
+      "faqA7P3": "Stuur een bericht via Etsy om het voorgestelde werk te bespreken en te bekijken of het aansluit bij de werkwijze van de kunstenaar.",
+      "footerExplore": "Ontdek",
+      "footerLinks": "Handige links",
+      "process": "Proces",
+      "processTitle": "Een kijkje in het proces",
+      "processIntro": "Een nadere blik op het ontstaan van het werk.",
+      "processPhotos": "In het atelier",
+      "processPhotosNote": "Foto’s van het creatieve proces worden hier gedeeld.",
+      "processVideos": "In beweging",
+      "processVideosNote": "Video’s van het proces, de materialen en de details worden hier gedeeld.",
+      "processNotes": "Ateliernotities",
+      "processNotesNote": "Gedachten over materialen, keuzes en ontdekkingen worden hier gedeeld.",
+      "faqIntro": "Praktische informatie over de kunstwerken, prints en bestellingen.",
+      "faqMore": "Nog een vraag?",
+      "aboutQuestion": "Welke kleuren ben jij op dit moment?",
+      "faqReveal": "Ontdek het antwoord",
+      "faqBack": "Terug naar de vraag",
+      "contactDeliveryNote": "Dit opent een concept in je e-mailapp. Controleer en verstuur het daar, of mail rechtstreeks naar het adres hierboven.",
+      "contactSending": "Versturen…",
+      "contactDirectNote": "Je naam, e-mailadres en bericht worden gebruikt om je vraag te beantwoorden.",
+      "contactSent": "Je bericht is ingediend. Bedankt voor je bericht.",
+      "contactSendError": "We konden de verzending niet bevestigen. Probeer het later opnieuw. Je bericht staat hier nog.",
+      "contactPreviewOnly": "Berichten kunnen via de gepubliceerde website worden verzonden. Deze voorvertoning verstuurt geen berichten.",
+      "contactNotReady": "Berichten versturen is nog niet beschikbaar. Je kunt de kunstenaar via Instagram of Etsy bereiken.",
+      "artworkSurface": "Ondergrond",
+      "artworkPaperWeight": "Papiergewicht",
+      "artworkFraming": "Lijst",
+      "surfacePaper": "Papier",
+      "surfaceAcidFree": "Zuurvrij papier",
+      "frameNo": "Niet ingelijst",
+      "frameYes": "Ingelijst",
+      "mediumWatercolor": "Aquarel",
+      "mediumWatercolorInk": "Aquarel en inkt op papier",
+      "mediumAcrylic": "Acrylmarker op papier",
+      "mediumAcrylicInk": "Acrylmarker en inkt op papier",
+      "mediumAlcoholInk": "Alcoholmarker en inkt op papier",
+      "mediumMixedMarkers": "Alcoholmarker, acrylmarker en inkt op papier",
+      "mediumAlcohol": "Alcoholmarkers",
+      "mediumAlcoholPluralInk": "Alcoholmarkers en inkt op papier",
+      "artworkDims001": "21 × 29,7 cm",
+      "artworkDimsB002": "25 × 35 cm",
+      "artworkDimsB003": "21 × 29,7 cm",
+      "artworkDims004": "29,7 × 21 cm",
+      "artworkDims005": "21 × 29,7 cm",
+      "artworkDimsB006": "21 × 29,7 cm",
+      "artworkDimsB007": "21 × 29,7 cm",
+      "artworkDimsB009": "21 × 29,7 cm",
+      "artworkDimsB010": "21 × 29,7 cm",
+      "artworkDims011": "29,7 × 21 cm",
+      "artworkDimsWB013": "29,7 × 42 cm",
+      "artworkDimsWB014": "24 × 34 cm",
+      "artworkDimsWB015": "24 × 34 cm",
+      "artworkDimsB016": "20,5 × 20,5 cm",
+      "artworkDimsB017": "20,5 × 20,5 cm",
+      "artworkDimsB018": "20,5 × 20,5 cm",
+      "artworkDims019": "20,5 × 20,5 cm",
+      "artworkDimsWB020": "20,5 × 20,5 cm",
+      "artworkDimsB021": "20,5 × 20,5 cm",
+      "artworkDimsB022": "20,5 × 20,5 cm",
+      "artworkDims023": "20,5 × 20,5 cm",
+      "artworkDimsB024": "12,7 × 17,6 cm",
+      "artworkDimsB025": "12,7 × 17,6 cm",
+      "artworkDimsB026": "12,7 × 17,6 cm",
+      "artworkDims027": "14,8 × 21 cm",
+      "artworkDims028": "14,8 × 21 cm",
+      "artworkDims029": "14,8 × 21 cm",
+      "artworkDimsB031": "29,7 × 42 cm",
+      "artworkDimsB032": "12,7 × 17,6 cm",
+      "artworkDimsB033": "12,7 × 17,6 cm",
+      "artworkDimsB034": "12,7 × 17,6 cm",
+      "artworkDimsB035": "20,5 × 20,5 cm",
+      "artworkDimsB036": "12,7 × 17,6 cm",
+      "artworkDimsAU037": "21 × 29,7 cm",
+      "artworkDimsAU038": "21 × 29,7 cm",
+      "artworkDimsAU039": "21 × 29,7 cm",
+      "artworkDims040": "21 × 29,7 cm",
+      "artworkDims041": "21 × 29,7 cm",
+      "artworkDims042": "24 × 24 cm",
+      "untitledLabel": "zonder titel.",
+      "enquireAvailability": "Neem contact op voor de actuele beschikbaarheid.",
+      "contactOpenEmail": "E-mailconcept openen",
+      "artworkDimsWB030": "21 × 29,7 cm",
+      "hiddenImages": "De afbeeldingen zijn momenteel privé.",
+      "originalLabel": "Origineel",
+      "printsLabel": "Fine art prints",
+      "soldLabel": "Verkocht",
+      "privacyTitle": "Privacy",
+      "privacyText": "De website bewaart uw taalvoorkeur lokaal en gebruikt noodzakelijke cookies voor de privésessie van de beheerder. Er zijn geen reclame- of analysetools toegevoegd. Contactberichten worden via FormSubmit aan de kunstenaar bezorgd; naam, e-mailadres en bericht worden met die dienst gedeeld. YouTube-video’s laden pas wanneer u ervoor kiest ze te bekijken. Etsy- en Instagram-links openen externe diensten met een eigen privacybeleid. Gebruik de contactpagina voor vragen over uw gegevens.",
+      "contactPrivacy": "Uw bericht wordt via FormSubmit naar de kunstenaar verstuurd. Naam en antwoordadres worden gebruikt om uw vraag te beantwoorden.",
+      "videoConsent": "YouTube wordt pas geladen nadat u ervoor kiest de video te bekijken."
+    },
+    "tr": {
+      "imageSoon": "Görsel yakında",
+      "independentWorks": "Bağımsız eserler",
+      "home": "Ana sayfa",
+      "collectionSoon": "Bu koleksiyondan eserler yakında burada yer alacak.",
+      "backToCollections": "Koleksiyonlara dön",
+      "artworkCollection": "Koleksiyon",
+      "artworkAvailable": "Satışta",
+      "etsyAvailability": "Güncel satış durumu için Etsy’ye bakabilirsiniz.",
+      "shopNow": "Etsy’den satın al",
+      "artworkPlaceholder": "Eser adı",
+      "artworkYear": "Yıl",
+      "artworkMedium": "Teknik",
+      "artworkDimensions": "Ölçüler (en × boy)",
+      "artworkAvailability": "Satış durumu",
+      "artworkAsk": "Bilgi al",
+      "artworkEnquire": "Bu eser hakkında bilgi al",
+      "artworkEnquiryNote": "Bu eser hakkında daha fazla ayrıntı için.",
+      "enlarge": "Büyütmek için görsele tıkla",
+      "previousArtwork": "Önceki eser",
+      "nextArtwork": "Sonraki eser",
+      "artworkReference": "Eser referansı",
+      "contactHeading": "İletişimde olalım",
+      "contact": "İletişime geç",
+      "contactTitle": "İletişime geç",
+      "contactIntro": "Eserler, iş birlikleri veya sadece bir merhaba için.",
+      "contactName": "Ad",
+      "contactEmail": "E-posta",
+      "contactMessage": "Mesaj",
+      "contactSend": "Mesaj gönder",
+      "menu": "Menü",
+      "skip": "İçeriğe geç",
+      "gallery": "Galeri",
+      "about": "Sanatçı hakkında",
+      "collections": "Koleksiyonlar",
+      "view": "Eseri görüntüle",
+      "explore": "Bizimle keşfet.",
+      "greeting": "Renklerle bir duygu dünyası.",
+      "all": "Tüm eserler",
+      "back": "Galeriye dön",
+      "aboutTitle": "Sanatçı hakkında",
+      "aboutP1": "Çizim ve resim, Begüm Özpay’ın hayatının her zaman bir parçası olmuştur. Sanatın doğal bir ifade biçimi olduğu bir ailede büyüyen Özpay, görsel anlatımla kalıcı bir bağ kurmuştur.",
+      "aboutP2": "Sanatsal pratiği, kendini anlama isteğiyle başlar ve insan deneyimine duyduğu daha geniş bir meraka uzanır. Renk, semboller ve değişen formlar aracılığıyla anıların, duyguların ve kişisel geçmişin kendimizi ve çevremizdeki dünyayı görme biçimimizi nasıl şekillendirdiğini araştırır.",
+      "aboutP3": "Eserlerinin çoğu, önceden belirlenmiş bir kompozisyon veya anlatı olmadan başlar. Her karar bir sonrakine yön verirken eser kendi doğrultusunu bulur. Tekrarlayan semboller çoğu zaman kişisel ve ailevi anılardan doğar; farklı eserlerde değişen anlamlar kazanır.",
+      "aboutP4": "Eserlerinde tekrar eden semboller çoğunlukla kişisel anılardan ve aile hatıralarından doğar; taşıdıkları anlamlar bir eserden diğerine dönüşür. Renk de aynı derecede önemli bir rol üstlenir: duyguların ve deneyimlerin keşfedilebildiği bir dil olarak işlev görür.",
+      "aboutP5": "Özpay, sabit yorumlar sunmak yerine her esere açık uçlu bir keşif süreci olarak yaklaşır ve izleyicinin kendi çağrışımlarına alan bırakır.",
+      "aboutClosing": ", gelişmeye devam eden bu eserlerin bir araya geldiği alandır. Özpay, birlikte keşfetmeye ve kendi renklerinizi bulmaya davet eder.",
+      "faq": "SSS",
+      "faqTitle": "Sık sorulan sorular",
+      "faqQ1": "Eserler özgün mü?",
+      "faqA1": "Eser satın almak için Turquoise Opus Etsy mağazasını ziyaret edebilirsiniz.",
+      "faqQ2": "Orijinal eser ile fine art baskı arasındaki fark nedir?",
+      "faqA2": "Güncel satış durumu için Etsy’ye bakabilirsiniz.",
+      "faqShop": "Etsy mağazasını ziyaret et",
+      "aboutMaterials": "Suluboya, mürekkep, akrilik ve metalik detaylar eserlerine farklı nitelikler katar: akışkan renk katmanları, belirgin çizgiler, üst üste gelen renkler ve ışıkla değişen yüzeyler.",
+      "faqA1P1": "Her orijinal eser, Begüm Özpay tarafından elle üretilmiş, tek ve özgün bir çalışmadır. Seçili eserlerin fine art baskıları da sunulmaktadır. Her Etsy ilanında ürünün orijinal eser mi yoksa baskı mı olduğu açıkça belirtilir.",
+      "faqA2P1": "Orijinal eser, sanatçının doğrudan ürettiği; kullanılan malzemelere özgü dokuları, detayları ve farklılıkları taşıyan fiziksel çalışmadır.",
+      "faqA2P2": "Fine art baskı, orijinal bir eserin renklerini ve detaylarını mümkün olduğunca aslına sadık biçimde yansıtmak amacıyla üretilen reprodüksiyonudur.",
+      "faqA2P3": "Malzeme, ölçü ve diğer özellikler ilgili Etsy ilanında yer alır.",
+      "faqQ3": "Eserler çerçeveli mi?",
+      "faqA3P1": "Çerçeve durumu esere göre değişir. Bazı çalışmalar çerçeveli sunulabilir; diğerleri çerçevesiz olarak teslim edilir.",
+      "faqA3P2": "Ürüne nelerin dahil olduğu her Etsy ilanında belirtilir. Yalnızca sunum amacıyla kullanılan çerçeveler ayrıca açıklanır.",
+      "faqQ4": "Renkler ekranımda gördüğümle tamamen aynı mı olacak?",
+      "faqA4P1": "Eserler, renklerini mümkün olduğunca doğru yansıtmak için özenle fotoğraflanır ve sunulur.",
+      "faqA4P2": "Ekran ayarları, ışık ve malzemelerin doğal özellikleri nedeniyle bazı farklılıklar görülebilir. Metalik detaylar ve dokulu yüzeylerin görünümü de ışığa göre değişebilir.",
+      "faqQ5": "Eseri çoğaltabilir veya yeniden satabilir miyim?",
+      "faqA5P1": "Orijinal eser veya fine art baskı satın alındığında telif ve çoğaltma hakları Begüm Özpay’da kalır.",
+      "faqA5P2": "Fiziksel eser, sahibi tarafından sergilenebilir veya yeniden satılabilir. Eserin mülkiyeti, çoğaltma hakkını kapsamaz.",
+      "faqA5P3": "Eser görsellerinin çoğaltılması, dağıtılması veya ticari amaçla kullanılması için yazılı izin gereklidir. Bu tür kullanımları görüşmek için iletişime geçebilirsiniz.",
+      "faqQ6": "Eserim hasarlı ulaşırsa ne yapmalıyım?",
+      "faqA6P1": "Eser hasarlı ulaşırsa eserin ve ambalajının fotoğraflarıyla birlikte mümkün olan en kısa sürede Etsy üzerinden Begüm Özpay ile iletişime geçebilirsiniz.",
+      "faqA6P2": "Durum, Etsy politikaları ve geçerli tüketici hakları doğrultusunda uygun bir çözüm belirlemek üzere değerlendirilir.",
+      "faqQ7": "Özel bir eser sipariş edebilir miyim?",
+      "faqA7P1": "Özel eser talepleri kabul edilir ve her talep ayrı ayrı değerlendirilir.",
+      "faqA7P2": "Bir renk paleti, kişisel bir referans, anı veya başlangıç fikri görüşmeye temel oluşturabilir.",
+      "faqA7P3": "Önerilen çalışmayı ve sanatçının pratiğine uygunluğunu görüşmek için Etsy üzerinden mesaj gönderebilirsiniz.",
+      "footerExplore": "Keşfet",
+      "footerLinks": "Bağlantılar",
+      "process": "Süreç",
+      "processTitle": "Yaratım sürecinden",
+      "processIntro": "Eserlerin ortaya çıkışına daha yakından bir bakış.",
+      "processPhotos": "Atölyeden",
+      "processPhotosNote": "Yaratım sürecinden fotoğraflar burada paylaşılacak.",
+      "processVideos": "Hareket halinde",
+      "processVideosNote": "Süreç, malzemeler ve detaylara dair videolar burada paylaşılacak.",
+      "processNotes": "Atölye notları",
+      "processNotesNote": "Malzemeler, kararlar ve keşifler üzerine notlar burada paylaşılacak.",
+      "faqIntro": "Eserler, baskılar ve siparişler hakkında birkaç yararlı bilgi.",
+      "faqMore": "Başka bir sorun mu var?",
+      "aboutQuestion": "Şu an hangi renklersin?",
+      "faqReveal": "Yanıtı keşfet",
+      "faqBack": "Soruya dön",
+      "contactDeliveryNote": "E-posta uygulamanda bir taslak açılır. Orada kontrol edip gönder veya yukarıdaki adrese doğrudan yaz.",
+      "contactSending": "Gönderiliyor…",
+      "contactDirectNote": "Adın, e-posta adresin ve mesajın, sorunu yanıtlamak için kullanılacaktır.",
+      "contactSent": "Mesajın gönderim için alındı. İletişime geçtiğin için teşekkürler.",
+      "contactSendError": "Gönderimi doğrulayamadık. Lütfen daha sonra tekrar dene. Yazdığın mesaj burada duruyor.",
+      "contactPreviewOnly": "Mesajlar yayındaki web sitesinden gönderilebilir. Bu önizleme mesaj göndermez.",
+      "contactNotReady": "Mesaj gönderimi henüz etkin değil. Sanatçıya Instagram veya Etsy üzerinden ulaşabilirsin.",
+      "artworkSurface": "Yüzey",
+      "artworkPaperWeight": "Kâğıt gramajı",
+      "artworkFraming": "Çerçeve",
+      "surfacePaper": "Kâğıt",
+      "surfaceAcidFree": "Asitsiz kâğıt",
+      "frameNo": "Çerçevesiz",
+      "frameYes": "Çerçeveli",
+      "mediumWatercolor": "Suluboya",
+      "mediumWatercolorInk": "Kâğıt üzerine suluboya ve mürekkep",
+      "mediumAcrylic": "Kâğıt üzerine akrilik marker",
+      "mediumAcrylicInk": "Kâğıt üzerine akrilik marker ve mürekkep",
+      "mediumAlcoholInk": "Kâğıt üzerine alkol bazlı marker ve mürekkep",
+      "mediumMixedMarkers": "Kâğıt üzerine alkol bazlı marker, akrilik marker ve mürekkep",
+      "mediumAlcohol": "Alkol bazlı marker",
+      "mediumAlcoholPluralInk": "Kâğıt üzerine alkol bazlı marker ve mürekkep",
+      "artworkDims001": "21 × 29,7 cm",
+      "artworkDimsB002": "25 × 35 cm",
+      "artworkDimsB003": "21 × 29,7 cm",
+      "artworkDims004": "29,7 × 21 cm",
+      "artworkDims005": "21 × 29,7 cm",
+      "artworkDimsB006": "21 × 29,7 cm",
+      "artworkDimsB007": "21 × 29,7 cm",
+      "artworkDimsB009": "21 × 29,7 cm",
+      "artworkDimsB010": "21 × 29,7 cm",
+      "artworkDims011": "29,7 × 21 cm",
+      "artworkDimsWB013": "29,7 × 42 cm",
+      "artworkDimsWB014": "24 × 34 cm",
+      "artworkDimsWB015": "24 × 34 cm",
+      "artworkDimsB016": "20,5 × 20,5 cm",
+      "artworkDimsB017": "20,5 × 20,5 cm",
+      "artworkDimsB018": "20,5 × 20,5 cm",
+      "artworkDims019": "20,5 × 20,5 cm",
+      "artworkDimsWB020": "20,5 × 20,5 cm",
+      "artworkDimsB021": "20,5 × 20,5 cm",
+      "artworkDimsB022": "20,5 × 20,5 cm",
+      "artworkDims023": "20,5 × 20,5 cm",
+      "artworkDimsB024": "12,7 × 17,6 cm",
+      "artworkDimsB025": "12,7 × 17,6 cm",
+      "artworkDimsB026": "12,7 × 17,6 cm",
+      "artworkDims027": "14,8 × 21 cm",
+      "artworkDims028": "14,8 × 21 cm",
+      "artworkDims029": "14,8 × 21 cm",
+      "artworkDimsB031": "29,7 × 42 cm",
+      "artworkDimsB032": "12,7 × 17,6 cm",
+      "artworkDimsB033": "12,7 × 17,6 cm",
+      "artworkDimsB034": "12,7 × 17,6 cm",
+      "artworkDimsB035": "20,5 × 20,5 cm",
+      "artworkDimsB036": "12,7 × 17,6 cm",
+      "artworkDimsAU037": "21 × 29,7 cm",
+      "artworkDimsAU038": "21 × 29,7 cm",
+      "artworkDimsAU039": "21 × 29,7 cm",
+      "artworkDims040": "21 × 29,7 cm",
+      "artworkDims041": "21 × 29,7 cm",
+      "artworkDims042": "24 × 24 cm",
+      "untitledLabel": "isimsiz.",
+      "enquireAvailability": "Güncel satış durumu için iletişime geçebilirsiniz.",
+      "contactOpenEmail": "E-posta taslağını aç",
+      "artworkDimsWB030": "21 × 29,7 cm",
+      "hiddenImages": "Eser görselleri şu anda gizli.",
+      "originalLabel": "Orijinal",
+      "printsLabel": "Fine art baskılar",
+      "soldLabel": "Satıldı",
+      "privacyTitle": "Gizlilik",
+      "privacyText": "Site, dil tercihini tarayıcınızda saklar; özel yönetici oturumu için gerekli çerezleri kullanır. Reklam veya analiz aracı eklenmemiştir. İletişim mesajları sanatçıya ulaştırılmak üzere FormSubmit tarafından işlenir; adınız, e-posta adresiniz ve mesajınız bu hizmetle paylaşılır. YouTube videoları yalnızca izlemeyi seçtiğinizde yüklenir. Etsy ve Instagram bağlantıları, kendi gizlilik politikaları olan harici hizmetleri açar. Bilgilerinizle ilgili sorularınız için iletişim sayfasını kullanabilirsiniz.",
+      "contactPrivacy": "Mesajınız FormSubmit üzerinden sanatçıya iletilir. Adınız ve yanıt adresiniz bu talebi yanıtlamak için kullanılır.",
+      "videoConsent": "YouTube yalnızca videoyu izlemeyi seçtiğinizde yüklenir."
+    }
+  },
+  "artworks": [
+    {
+      "id": "001",
+      "code": "001",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker on paper",
+        "nl": "Acrylmarker op papier",
+        "tr": "Kâğıt üzerine akrilik marker"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 300,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": "c0e8ae6c-fc7f-5379-ba91-f4d7fc2e19c0",
+      "details": [
+        {
+          "media": "b9126b14-d9e7-59fc-91c4-9d6433d03c96",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "0eeea3e0-67b6-5b2e-a338-79412d6a2fb7",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "c09cee47-0876-512a-bfd3-eeb8554ff77c",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "002",
+      "code": "B002",
+      "title": {
+        "en": "Through the Firsts",
+        "nl": "Through the Firsts",
+        "tr": "Through the Firsts"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2020,
+      "medium": {
+        "en": "Watercolor",
+        "nl": "Aquarel",
+        "tr": "Suluboya"
+      },
+      "width": 25,
+      "height": 35,
+      "gsm": 180,
+      "acid": "yes",
+      "framing": "unframed",
+      "main": "5a783794-c569-516f-9640-d34714d14f1c",
+      "details": [
+        {
+          "media": "752ee1c0-5872-5faf-b066-c36781442d60",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "d04eb968-26ed-530f-853d-010ce33b9ca3",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "bc7b31ee-4cb1-5525-b149-d35a2a264557",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "003",
+      "code": "B003",
+      "title": {
+        "en": "Through Borrowed Beliefs",
+        "nl": "Through Borrowed Beliefs",
+        "tr": "Through Borrowed Beliefs"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Aquarel en inkt op papier",
+        "tr": "Kâğıt üzerine suluboya ve mürekkep"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 200,
+      "acid": "yes",
+      "framing": "unframed",
+      "main": "ee7388fd-e671-5396-b028-aff78d4b448f",
+      "details": [
+        {
+          "media": "9214bf57-240e-540f-a52b-071255d8e485",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "9b7c4f81-d9e1-538e-862f-09a1d3380381",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "c3955dd1-008c-5255-9736-d440ead9e1e1",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "004",
+      "code": "004",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Alcohol marker and ink on paper",
+        "nl": "Alcoholmarker en inkt op papier",
+        "tr": "Kâğıt üzerine alkol bazlı marker ve mürekkep"
+      },
+      "width": 29.7,
+      "height": 21,
+      "gsm": 200,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "e9948d78-7b9a-5553-871d-59ad6b508b01",
+      "details": [
+        {
+          "media": "3fe1471d-be96-5786-a9e7-f808c334c62a",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "4ff08251-df3a-52c2-a9ab-c97437eae3cb",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "3b36df00-66e1-535d-87c5-8ab78f091a44",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "005",
+      "code": "005",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Alcohol marker, acrylic marker and ink on paper",
+        "nl": "Alcoholmarker, acrylmarker en inkt op papier",
+        "tr": "Kâğıt üzerine alkol bazlı marker, akrilik marker ve mürekkep"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 200,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "a819e747-082e-5e1e-b960-a6dec7946d82",
+      "details": [
+        {
+          "media": "5c2d08f0-d198-556c-8c56-1ed8ee5ab90f",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "ab9ffc3a-9bb5-56ca-b9b3-eae2f83c7284",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "44d79907-8e11-5b8f-afac-9f9758e27303",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "006",
+      "code": "B006",
+      "title": {
+        "en": "Through Others",
+        "nl": "Through Others",
+        "tr": "Through Others"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Aquarel en inkt op papier",
+        "tr": "Kâğıt üzerine suluboya ve mürekkep"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 200,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "76eef59e-6fcf-5d69-b534-fe3aa9fef475",
+      "details": [
+        {
+          "media": "fde3d539-6a0b-5531-a929-3e3ad310472b",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "41a7cf00-45f4-52ab-ac40-55cc245100ae",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "2793ec01-ff37-5ba5-b417-9ae4254c906a",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "007",
+      "code": "B007",
+      "title": {
+        "en": "Through Myself",
+        "nl": "Through Myself",
+        "tr": "Through Myself"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Aquarel en inkt op papier",
+        "tr": "Kâğıt üzerine suluboya ve mürekkep"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 200,
+      "acid": "yes",
+      "framing": "unframed",
+      "main": "e616e2be-6a9c-50d3-befd-478a864ee86e",
+      "details": [
+        {
+          "media": "6aa8970f-60c0-5198-b018-654fd0dbcbd8",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "93c90c27-c13d-536b-95f1-6bfa5cb6d538",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "3af0827a-76c4-5285-9909-e5eb10656795",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "009",
+      "code": "B009",
+      "title": {
+        "en": "Through \"See You Never's\"",
+        "nl": "Through \"See You Never's\"",
+        "tr": "Through \"See You Never's\""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Aquarel en inkt op papier",
+        "tr": "Kâğıt üzerine suluboya ve mürekkep"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 200,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "ea9b75cb-dea5-5eb0-a6f7-6fe417b80649",
+      "details": [
+        {
+          "media": "deaa8ebf-10b4-5450-a288-f10801c43f9b",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "6ba87e7b-fcc9-55b6-a4f5-7e017fa7e197",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "cbcd3523-2fab-5717-83a3-b8862c3e43ab",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "010",
+      "code": "B010",
+      "title": {
+        "en": "Through Cohesion",
+        "nl": "Through Cohesion",
+        "tr": "Through Cohesion"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Aquarel en inkt op papier",
+        "tr": "Kâğıt üzerine suluboya ve mürekkep"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 200,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "8bfb3f5f-02eb-5773-aebf-6c31cfd44ea9",
+      "details": [
+        {
+          "media": "e256dd0b-5790-5304-be15-ee1d5d519708",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "ee79c63e-3f06-5f86-96be-47c8a60f82c0",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "4d3c5d41-3e66-54d8-893a-ec58a9df465f",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "011",
+      "code": "011",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker and ink on paper",
+        "nl": "Acrylmarker en inkt op papier",
+        "tr": "Kâğıt üzerine akrilik marker ve mürekkep"
+      },
+      "width": 29.7,
+      "height": 21,
+      "gsm": 200,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "defdf94e-18a2-57a4-b389-39342644288e",
+      "details": [
+        {
+          "media": "f4e7e008-3781-53de-98c6-46ed5476a912",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "f04c3ff3-5570-58c0-b6e8-38622e47a840",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "d7e4041e-00b6-59be-9474-87e90927401c",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "013",
+      "code": "WB013",
+      "title": {
+        "en": "Invisible Connections",
+        "nl": "Invisible Connections",
+        "tr": "Invisible Connections"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "ways-of-being",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker and ink on paper",
+        "nl": "Acrylmarker en inkt op papier",
+        "tr": "Kâğıt üzerine akrilik marker ve mürekkep"
+      },
+      "width": 29.7,
+      "height": 42,
+      "gsm": 300,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "1f5efb4b-4a26-5df8-abe0-00ce80e6df99",
+      "details": [
+        {
+          "media": "30a79289-bb32-5321-8c83-38cb98271328",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "adb52d11-a493-5a2d-9283-66e07e40eec4",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "60f8e0f8-d403-5e3d-a7c4-ebe81e8d6604",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "014",
+      "code": "WB014",
+      "title": {
+        "en": "Against the Empty",
+        "nl": "Against the Empty",
+        "tr": "Against the Empty"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "ways-of-being",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker and ink on paper",
+        "nl": "Acrylic marker and ink on paper",
+        "tr": "Acrylic marker and ink on paper"
+      },
+      "width": 24,
+      "height": 34,
+      "gsm": 250,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "015",
+      "code": "WB015",
+      "title": {
+        "en": "Among the Others",
+        "nl": "Among the Others",
+        "tr": "Among the Others"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "ways-of-being",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker and ink on paper",
+        "nl": "Acrylmarker en inkt op papier",
+        "tr": "Kâğıt üzerine akrilik marker ve mürekkep"
+      },
+      "width": 24,
+      "height": 34,
+      "gsm": 250,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "cb0572eb-18da-5b68-88df-936fe8534280",
+      "details": [
+        {
+          "media": "a3820d5f-af46-5112-9f48-e511192759a2",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "eb83e4d3-757c-5851-895d-a613f531e32f",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "c1ca1d8d-61d1-5d5d-a0ed-4c5580b392e7",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "016",
+      "code": "B016",
+      "title": {
+        "en": "Through Letting In",
+        "nl": "Through Letting In",
+        "tr": "Through Letting In"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Aquarel en inkt op papier",
+        "tr": "Kâğıt üzerine suluboya ve mürekkep"
+      },
+      "width": 20.5,
+      "height": 20.5,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": "68c57cfd-cb79-5e3f-a6f1-cd3087277fc7",
+      "details": [
+        {
+          "media": "017a5561-16e4-5e1b-bd2a-cb388d34c049",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "d4fc015e-031f-520f-8c42-f8eea2750678",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "0cfe93e4-dc1a-5fb8-990d-e56c1ec31f75",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "017",
+      "code": "B017",
+      "title": {
+        "en": "Through Structured Conflict",
+        "nl": "Through Structured Conflict",
+        "tr": "Through Structured Conflict"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Aquarel en inkt op papier",
+        "tr": "Kâğıt üzerine suluboya ve mürekkep"
+      },
+      "width": 20.5,
+      "height": 20.5,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": "a258a129-0adb-585a-9dd9-8f20822fb51b",
+      "details": [
+        {
+          "media": "80630640-39b0-5c47-81dd-ea111a6e0e9c",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "279dbab2-8a61-5173-84a0-cf69e0a096cc",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "85bf14e8-8e38-577b-b8f1-b8f432d432a9",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "018",
+      "code": "B018",
+      "title": {
+        "en": "Through Discernment",
+        "nl": "Through Discernment",
+        "tr": "Through Discernment"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Aquarel en inkt op papier",
+        "tr": "Kâğıt üzerine suluboya ve mürekkep"
+      },
+      "width": 20.5,
+      "height": 20.5,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": "2180d33d-5e15-5421-b7f1-2cbe5f2a87a7",
+      "details": [
+        {
+          "media": "ebc48c83-5873-5dfd-ab07-bdaca12c943c",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "f2ca2c32-3b23-5c36-bc66-8d32f28bef87",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "1b624614-5c0f-51d9-9dcb-09578911fe85",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "019",
+      "code": "019",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Alcohol markers",
+        "nl": "Alcoholmarkers",
+        "tr": "Alkol bazlı marker"
+      },
+      "width": 20.5,
+      "height": 20.5,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": "b53a1af9-db59-5974-af1b-fd9d11a5189f",
+      "details": [
+        {
+          "media": "d4edc984-f588-5df8-92b3-e3e085c2423e",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "2d802b75-ab07-5d11-be6b-a6e055262037",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "50dd2a4b-099f-594c-872e-8af2eb799b7c",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "020",
+      "code": "WB020",
+      "title": {
+        "en": "When Lost",
+        "nl": "When Lost",
+        "tr": "When Lost"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "ways-of-being",
+      "year": 2026,
+      "medium": {
+        "en": "Alcohol markers",
+        "nl": "Alcoholmarkers",
+        "tr": "Alkol bazlı marker"
+      },
+      "width": 20.5,
+      "height": 20.5,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": "5090336d-93cd-57ab-bace-dfcda4a5b054",
+      "details": [
+        {
+          "media": "2ecf9dd0-7aea-539a-8a02-c96ee6237a3d",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "c0ad4442-3f7b-5f29-b5e6-0d2cb9a07676",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "4a65bf4f-0b97-572a-93e2-e733d73b0e62",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "021",
+      "code": "B021",
+      "title": {
+        "en": "Through Imposed Decisions",
+        "nl": "Through Imposed Decisions",
+        "tr": "Through Imposed Decisions"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Aquarel en inkt op papier",
+        "tr": "Kâğıt üzerine suluboya ve mürekkep"
+      },
+      "width": 20.5,
+      "height": 20.5,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": "2bfa608f-5937-5850-be62-e28e4c2d3bb7",
+      "details": [
+        {
+          "media": "92b2f5eb-3577-5b89-91fc-1c29b244ae86",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "64647db8-5d4d-5f29-80e6-c02a612ad409",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "951ddf55-1731-512c-915a-74ee30f895d9",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "022",
+      "code": "B022",
+      "title": {
+        "en": "Through Holding On",
+        "nl": "Through Holding On",
+        "tr": "Through Holding On"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Aquarel en inkt op papier",
+        "tr": "Kâğıt üzerine suluboya ve mürekkep"
+      },
+      "width": 20.5,
+      "height": 20.5,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": "db0b33b0-abf3-5ed9-b56d-5aebb5fcd8b3",
+      "details": [
+        {
+          "media": "d0d1fe5a-cb31-5a11-89d4-41b8c7787e4e",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "dced181c-13df-5441-8120-4e4d59f9db4c",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "30bf0731-b49b-5a5c-aeb3-6d613b2c89bf",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "023",
+      "code": "023",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker on paper",
+        "nl": "Acrylmarker op papier",
+        "tr": "Kâğıt üzerine akrilik marker"
+      },
+      "width": 20.5,
+      "height": 20.5,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": "0b399ce6-608d-5324-a613-6445e1133e7e",
+      "details": [
+        {
+          "media": "f41376ef-4cbf-5257-af1c-3b37c41115b6",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "1a08d39e-fee4-5e09-9845-3573f8b1f289",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "1b1eb52f-e5fb-5bab-a17e-c8d6b5f2e578",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "024",
+      "code": "B024",
+      "title": {
+        "en": "Through Unraveling",
+        "nl": "Through Unraveling",
+        "tr": "Through Unraveling"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 12.7,
+      "height": 17.6,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — yeniden çekim gerekli",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "025",
+      "code": "B025",
+      "title": {
+        "en": "Through \"Trying to Please\"",
+        "nl": "Through \"Trying to Please\"",
+        "tr": "Through \"Trying to Please\""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 12.7,
+      "height": 17.6,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — yeniden çekim gerekli",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "026",
+      "code": "B026",
+      "title": {
+        "en": "Through Transformation",
+        "nl": "Through Transformation",
+        "tr": "Through Transformation"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 12.7,
+      "height": 17.6,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — yeniden çekim gerekli",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "027",
+      "code": "027",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker on paper",
+        "nl": "Acrylic marker on paper",
+        "tr": "Acrylic marker on paper"
+      },
+      "width": 14.8,
+      "height": 21,
+      "gsm": 120,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master bulunamadı — yeniden çekim bekliyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "028",
+      "code": "028",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker on paper",
+        "nl": "Acrylic marker on paper",
+        "tr": "Acrylic marker on paper"
+      },
+      "width": 14.8,
+      "height": 21,
+      "gsm": 120,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master bulunamadı — yeniden çekim bekliyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "029",
+      "code": "029",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker on paper",
+        "nl": "Acrylmarker op papier",
+        "tr": "Kâğıt üzerine akrilik marker"
+      },
+      "width": 14.8,
+      "height": 21,
+      "gsm": 120,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "131a214f-ac86-5ba0-b7c5-20ca0eec0da9",
+      "details": [
+        {
+          "media": "67354364-3c33-5051-a1bf-be40454bb695",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "66b0585f-f8ff-5677-875a-8643abd31a15",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "653b1823-1142-58a7-baf4-c936be5c1c7d",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "030",
+      "code": "WB030",
+      "title": {
+        "en": "When Found",
+        "nl": "When Found",
+        "tr": "When Found"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "ways-of-being",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker and ink on paper",
+        "nl": "Acrylmarker en inkt op papier",
+        "tr": "Kâğıt üzerine akrilik marker ve mürekkep"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 200,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "1000d384-c7c7-5b13-8d04-d4fd73756509",
+      "details": [
+        {
+          "media": "9af8d53c-b063-586c-8d5e-d95fbb3493ac",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "821e2343-ed19-53cd-8015-6e5cdfb8d6b7",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "abdd44bf-2f67-578b-b771-67d4129c0ca1",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "031",
+      "code": "B031",
+      "title": {
+        "en": "Through Mistakes",
+        "nl": "Through Mistakes",
+        "tr": "Through Mistakes"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2020,
+      "medium": {
+        "en": "Watercolor",
+        "nl": "Aquarel",
+        "tr": "Suluboya"
+      },
+      "width": 29.7,
+      "height": 42,
+      "gsm": 300,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": "ecdc0d1a-3ae5-5841-b73c-628d55878923",
+      "details": [
+        {
+          "media": "a488fc94-b5ef-5e47-a8ae-5cd61cc28ef9",
+          "confirmed": true,
+          "label": "Detail 1"
+        },
+        {
+          "media": "6c39c3cb-7fdd-5b3e-91b1-ec4c27747224",
+          "confirmed": true,
+          "label": "Detail 2"
+        },
+        {
+          "media": "db8f1eb5-ce50-526d-bc9c-08d7333e91ea",
+          "confirmed": true,
+          "label": "Detail 3"
+        }
+      ],
+      "approved": true,
+      "visible": true,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "YES",
+        "editedMaster": "Var — düzenleme ve baskı masterı",
+        "reshoot": "NO"
+      }
+    },
+    {
+      "id": "032",
+      "code": "B032",
+      "title": {
+        "en": "Through Silence",
+        "nl": "Through Silence",
+        "tr": "Through Silence"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 12.7,
+      "height": 17.6,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — 12 MP JPEG; 48 MP RAW bekleniyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "033",
+      "code": "B033",
+      "title": {
+        "en": "Through Emergence",
+        "nl": "Through Emergence",
+        "tr": "Through Emergence"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 12.7,
+      "height": 17.6,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — 12 MP JPEG; 48 MP RAW bekleniyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "034",
+      "code": "B034",
+      "title": {
+        "en": "Through Memories",
+        "nl": "Through Memories",
+        "tr": "Through Memories"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 12.7,
+      "height": 17.6,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — 12 MP JPEG; 48 MP RAW bekleniyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "035",
+      "code": "B035",
+      "title": {
+        "en": "Through Becoming",
+        "nl": "Through Becoming",
+        "tr": "Through Becoming"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 20.5,
+      "height": 20.5,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NOT ASSIGNED",
+        "editedMaster": "Master bulunamadı — dosya bekleniyor",
+        "reshoot": "NOT ASSESSED"
+      }
+    },
+    {
+      "id": "036",
+      "code": "B036",
+      "title": {
+        "en": "Through Boundaries",
+        "nl": "Through Boundaries",
+        "tr": "Through Boundaries"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "becoming",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 12.7,
+      "height": 17.6,
+      "gsm": null,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — 12 MP JPEG; 48 MP RAW bekleniyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "037",
+      "code": "AU037",
+      "title": {
+        "en": "All of Us I",
+        "nl": "All of Us I",
+        "tr": "All of Us I"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "all-of-us",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 300,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — ilk çekim bekleniyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "038",
+      "code": "AU038",
+      "title": {
+        "en": "All of Us II",
+        "nl": "All of Us II",
+        "tr": "All of Us II"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "all-of-us",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 300,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — ilk çekim bekleniyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "039",
+      "code": "AU039",
+      "title": {
+        "en": "All of Us III",
+        "nl": "All of Us III",
+        "tr": "All of Us III"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "all-of-us",
+      "year": 2026,
+      "medium": {
+        "en": "Watercolor and ink on paper",
+        "nl": "Watercolor and ink on paper",
+        "tr": "Watercolor and ink on paper"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 300,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — ilk çekim bekleniyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "040",
+      "code": "040",
+      "title": {
+        "en": "Reproduction of Attention",
+        "nl": "Reproduction of Attention",
+        "tr": "Reproduction of Attention"
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker and ink on paper",
+        "nl": "Acrylic marker and ink on paper",
+        "tr": "Acrylic marker and ink on paper"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 300,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — ilk çekim bekleniyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "041",
+      "code": "041",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker and ink on paper",
+        "nl": "Acrylic marker and ink on paper",
+        "tr": "Acrylic marker and ink on paper"
+      },
+      "width": 21,
+      "height": 29.7,
+      "gsm": 300,
+      "acid": "unknown",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — ilk çekim bekleniyor",
+        "reshoot": "YES"
+      }
+    },
+    {
+      "id": "042",
+      "code": "042",
+      "title": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "description": {
+        "en": "",
+        "nl": "",
+        "tr": ""
+      },
+      "collection": "independent-works",
+      "year": 2026,
+      "medium": {
+        "en": "Acrylic marker and ink on paper",
+        "nl": "Acrylic marker and ink on paper",
+        "tr": "Acrylic marker and ink on paper"
+      },
+      "width": 24,
+      "height": 24,
+      "gsm": 250,
+      "acid": "yes",
+      "framing": "unknown",
+      "main": null,
+      "details": [],
+      "approved": false,
+      "visible": false,
+      "archived": false,
+      "showPrice": false,
+      "original": {
+        "status": "enquire",
+        "price": null,
+        "etsy": ""
+      },
+      "prints": [
+        {
+          "size": "A4",
+          "price": null,
+          "etsy": "",
+          "available": false
+        },
+        {
+          "size": "A3",
+          "price": null,
+          "etsy": "",
+          "available": false
+        }
+      ],
+      "qc": {
+        "captureMaster": "NO",
+        "editedMaster": "Master yok — ilk çekim bekleniyor",
+        "reshoot": "YES"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "ways-of-being",
+      "title": {
+        "en": "Ways of Being",
+        "nl": "Ways of Being",
+        "tr": "Ways of Being"
+      },
+      "cover": "013",
+      "visible": true
+    },
+    {
+      "id": "all-of-us",
+      "title": {
+        "en": "All of Us",
+        "nl": "All of Us",
+        "tr": "All of Us"
+      },
+      "cover": null,
+      "visible": false
+    },
+    {
+      "id": "becoming",
+      "title": {
+        "en": "Becoming",
+        "nl": "Becoming",
+        "tr": "Becoming"
+      },
+      "cover": "007",
+      "visible": true
+    },
+    {
+      "id": "of-earth-and-myth",
+      "title": {
+        "en": "Of Earth and Myth",
+        "nl": "Of Earth and Myth",
+        "tr": "Of Earth and Myth"
+      },
+      "cover": null,
+      "visible": false
+    },
+    {
+      "id": "independent-works",
+      "title": {
+        "en": "Independent Works",
+        "nl": "Zelfstandige werken",
+        "tr": "Bağımsız eserler"
+      },
+      "cover": "029",
+      "visible": true
+    }
+  ],
+  "pages": {
+    "process": false
+  },
+  "process": [],
+  "hero": "b1da937a-3092-533b-bcc7-31f738aecfd3",
+  "portrait": "e95605f1-a916-5719-8bc3-91333fec020f",
+  "heroMobile": "2939fdf0-8995-589f-b1d3-d88bdfc1d961"
+}

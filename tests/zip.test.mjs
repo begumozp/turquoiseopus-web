@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {crc32,zipStore} from '../public/zip.mjs';
+test('backup CRC32 matches standard known vector',()=>assert.equal(crc32(new TextEncoder().encode('123456789')),0xcbf43926));
+test('backup ZIP has both entries in central directory and blocks unsafe paths',async()=>{const z=await zipStore([{name:'backup.json',bytes:new TextEncoder().encode('{}')},{name:'image.jpg',bytes:new Uint8Array([255,216,255])}]);const b=new Uint8Array(await z.arrayBuffer()),v=new DataView(b.buffer);assert.equal(v.getUint32(0,true),0x04034b50);assert.equal(v.getUint32(b.length-22,true),0x06054b50);assert.equal(v.getUint16(b.length-14,true),2);await assert.rejects(zipStore([{name:'../x',bytes:new Uint8Array()}]));});
