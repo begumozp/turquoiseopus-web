@@ -6,6 +6,7 @@ export function etsyURL(s){if(!s)return true;try{const u=new URL(s);return u.pro
 export function youtubeID(s){if(!s)return '';try{const u=new URL(s);if(u.protocol!=='https:')return '';const h=u.hostname.replace(/^www\./,'');let id=h==='youtu.be'?u.pathname.slice(1):['youtube.com','youtube-nocookie.com'].includes(h)?u.searchParams.get('v')||u.pathname.match(/^\/(?:embed|shorts)\/([^/]+)/)?.[1]:'';return /^[\w-]{11}$/.test(id||'')?id:'';}catch{return '';}}
 export function validateDocument(d){
  if(!d||!Array.isArray(d.artworks)||!Array.isArray(d.collections)||!d.copy||!d.pages)fail('Geçersiz içerik belgesi.');
+ if(d.pages.artworks!==undefined&&typeof d.pages.artworks!=='boolean')fail('Eser galerisi açık veya kapalı olmalı.');
  if(d.artworks.length>1500||d.collections.length>100)fail('Kayıt sınırı aşıldı.');
  const ids=new Set(),codes=new Set();
  for(const a of d.artworks){
@@ -30,12 +31,15 @@ export function validateDocument(d){
 }
 export function publicDocument(d,hidden=true){
  if(!d?.artworks)return {artworks:[],collections:[],copy:{en:{},nl:{},tr:{}},pages:{process:false},process:[],imagesHidden:true};
- const approved=a=>a.visible===true&&!a.archived&&a.main&&a.approved===true;
- const artworks=d.artworks.filter(approved).map(a=>({id:a.id,code:a.code,title:a.title,description:a.description,collection:a.collection,year:a.year,medium:a.medium,width:a.width,height:a.height,gsm:a.gsm,acid:a.acid,framing:a.framing,showPrice:a.showPrice,original:{...a.original,price:a.showPrice?a.original.price:null},prints:a.prints.map(p=>({...p,price:a.showPrice?p.price:null})),main:hidden?null:a.main,details:hidden?[]:a.details.filter(x=>x.confirmed&&x.media).map(x=>({media:x.media,label:x.label}))}));
+ const catalogue=d.pages.artworks!==false;
+ const approvedImage=a=>a&&!a.archived&&a.main&&a.approved===true;
+ const approved=a=>a.visible===true&&approvedImage(a);
+ const artworks=(catalogue?d.artworks.filter(approved):[]).map(a=>({id:a.id,code:a.code,title:a.title,description:a.description,collection:a.collection,year:a.year,medium:a.medium,width:a.width,height:a.height,gsm:a.gsm,acid:a.acid,framing:a.framing,showPrice:a.showPrice,original:{...a.original,price:a.showPrice?a.original.price:null},prints:a.prints.map(p=>({...p,price:a.showPrice?p.price:null})),main:hidden?null:a.main,details:hidden?[]:a.details.filter(x=>x.confirmed&&x.media).map(x=>({media:x.media,label:x.label}))}));
  const ids=new Set(artworks.map(a=>a.id));
- return {artworks,collections:d.collections.filter(c=>c.visible).map(c=>({id:c.id,title:c.title,cover:ids.has(c.cover)?c.cover:null})),copy:d.copy,pages:{process:!!d.pages.process},process:d.pages.process?d.process.filter(p=>p.visible).map(p=>({title:p.title,text:p.text,youtube:hidden?'':youtubeID(p.youtube),media:hidden?null:p.media})):[],hero:hidden?null:d.hero,heroMobile:hidden?null:d.heroMobile,portrait:hidden?null:d.portrait,imagesHidden:hidden};
+ const collections=d.collections.filter(c=>c.visible).map(c=>{const a=d.artworks.find(a=>a.id===c.cover&&a.collection===c.id);return {id:c.id,title:c.title,cover:ids.has(c.cover)?c.cover:null,coverMedia:!hidden&&approvedImage(a)?a.main:null};});
+ return {artworks,collections,copy:d.copy,pages:{artworks:catalogue,process:!!d.pages.process},process:d.pages.process?d.process.filter(p=>p.visible).map(p=>({title:p.title,text:p.text,youtube:hidden?'':youtubeID(p.youtube),media:hidden?null:p.media})):[],hero:hidden?null:d.hero,heroMobile:hidden?null:d.heroMobile,portrait:hidden?null:d.portrait,imagesHidden:hidden};
 }
-export function allowedMedia(doc){const ids=new Set();if(doc.hero)ids.add(doc.hero);if(doc.heroMobile)ids.add(doc.heroMobile);if(doc.portrait)ids.add(doc.portrait);for(const a of doc.artworks||[]){if(a.main)ids.add(a.main);for(const x of a.details||[])if(x.media)ids.add(x.media);}for(const p of doc.process||[])if(p.media)ids.add(p.media);return ids;}
+export function allowedMedia(doc){const ids=new Set();if(doc.hero)ids.add(doc.hero);if(doc.heroMobile)ids.add(doc.heroMobile);if(doc.portrait)ids.add(doc.portrait);for(const c of doc.collections||[])if(c.coverMedia)ids.add(c.coverMedia);for(const a of doc.artworks||[]){if(a.main)ids.add(a.main);for(const x of a.details||[])if(x.media)ids.add(x.media);}for(const p of doc.process||[])if(p.media)ids.add(p.media);return ids;}
 export function bulkPreview(d,collection,size,price){if(!Number.isFinite(price)||price<0||price>999999)fail('Ortak fiyat geçersiz.');const targets=[],excluded=[];for(const a of d.artworks){if(a.collection!==collection||a.archived)continue;const p=a.prints.find(p=>p.size===size);if(p)targets.push({id:a.id,code:a.code,size,before:p.price,after:price});else excluded.push({id:a.id,code:a.code,reason:'Bu boyutta baskı tanımlı değil'});}return {targets,excluded};}
 export function applyBulk(d,preview){const out=clone(d);for(const x of preview.targets){const p=out.artworks.find(a=>a.id===x.id)?.prints.find(p=>p.size===x.size);if(!p||p.price!==x.before)fail('Önizlemeden sonra fiyat değişti; yeniden önizleyin.',409);p.price=x.after;}return out;}
 export function mediaType(bytes){if(bytes[0]===255&&bytes[1]===216&&bytes[2]===255)return 'image/jpeg';if([137,80,78,71,13,10,26,10].every((v,i)=>bytes[i]===v))return 'image/png';if(String.fromCharCode(...bytes.slice(0,4))==='RIFF'&&String.fromCharCode(...bytes.slice(8,12))==='WEBP')return 'image/webp';return '';}

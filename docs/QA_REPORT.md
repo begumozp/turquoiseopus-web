@@ -62,3 +62,29 @@ Bu ortamda Sites’ın öngördüğü tarayıcı kontrol yeteneği mevcut değil
 7. Kontrol tamamlanana kadar global kilidi kapalı tutma. Kilit açıldıktan sonra ayrı oturumsuz pencerede yalnız yayımlanmış/onaylı fotoğrafın erişilmesi.
 
 Kod bu kontrolleri kendiliğinden “mühendis onaylandı” saymaz; global anahtar otomatik açılmaz.
+
+## 20.10.2026 — Koleksiyon kapakları açık, eser galerisi kapalı
+
+`pages.artworks=false` ayarı panelin Ayarlar ve yedek bölümünden yönetilir. Home ve About sayfaları kalır; koleksiyon kapakları public belgede ayrı `coverMedia` alanıyla sunulur. Eser kayıtları, satış bilgileri ve detay listeleri public belgeden çıkarılır. Gallery bağlantıları kaldırılır; doğrudan eser adresi kayıt sunmaz. Medya API'si mevcut izin listesini kullandığı için seçili kapaklar, hero ve portre dışındaki eser/detay dosyalarını 404 ile reddeder. Global gizleme bütün fotoğrafları kapatmaya devam eder. Kapak seçili eserin ana fotoğrafıdır; kapak olarak yayımlanan fotoğrafın gizli olduğu iddia edilmez.
+
+`npm run qa`: **45/45 test**, derleme ve kaynak/çıktı kontrolleri başarılı. Yeni senaryolar: galeri kapalıyken yalnız kapak/Home/About izinleri; direkt özel dosya reddi; onaysız/arşivde/başka koleksiyondaki kapak reddi; global kilit; taslak ve yayın ayrımı; üç dilde sayfa üretimi. Tasarım ve görseller değiştirilmedi. Ayar isteğe bağlıdır; mevcut belgedeki eksik değer önceki galeri davranışını korur. SQL değişikliği ve yeniden medya yükleme gerekmez.
+
+Bu turda canlı sitede Home ve About gezinmesi, `/api/status` ve `/api/public` okundu: siteye erişim var, global görsel kilidi kapalı erişimde, yayımlanmış koleksiyon/eser listesi boş. Yönetici oturumu kullanılmadı; yüklenen dosya sayısı ve taslak içeriği bu bulgudan doğrulanamaz. Yeni ayar bu çalışma kopyasında test edildi; GitHub/Cloudflare'a bu ortamdan gönderilmedi ve canlıda uygulanmış sayılmaz. Yeni arayüzün gerçek tarayıcı/mobil testi ve canlı izin denemeleri dağıtımdan sonra yapılmalı.
+
+## 20.10.2026 — Cloudflare yönlendirme düzeltmesi
+
+Canlı `turquoiseopus-web.pages.dev/admin` isteğinde `308 Location: /admin` öz yönlendirme döngüsü doğrulandı. `/admin /admin.html 200` kuralı, Cloudflare Pages’in `.html` uzantısını kaldıran otomatik yönlendirmesiyle çakışıyordu. Gereksiz admin kuralı kaldırıldı; Pages mevcut `admin.html` dosyasını `/admin` adresinde kendisi sunar. Eser/koleksiyon proxy hedefleri de `/index.html` yerine onun kanonik karşılığı `/` olarak değiştirildi. Dinamik URL desteği korunur.
+
+Düzeltmeden sonra `npm run qa` tekrar başarılı: 38/38 test, üretim derlemesi ve özel fotoğraf/anahtar dışlama kontrolleri. Wrangler 4.151.2, düzeltilmiş dosyada iki geçerli yönlendirme kuralını ayrıştırdı. Yerel HTTP/tarayıcı denemeleri ortam sınırlamaları nedeniyle tamamlanamadı; bu, canlı dağıtım sonrası doğrulamanın yerine geçmez. GitHub/Cloudflare’a bu ortamdan değişiklik gönderilmedi.
+
+Ayrı canlı denemede `/api/status`, 503 ve `Sunucu kurulumu henüz tamamlanmadı.` cevabı verdi. Yeni dağıtımdan sonra production ortamındaki Supabase bağlantısı yeniden kontrol edilmeli. Gerçek giriş, fotoğraf aktarımı ve mühendis kabulü tamamlanmış sayılmaz.
+
+## 20.10.2026 — Boş taslakta panel kilitlenmesi
+
+Kullanıcının bildirdiği `Cannot read properties of undefined (reading 'forEach')` hatası mevcut `capture()` fonksiyonu ve boş `{}` taslakla yeniden üretildi. Koleksiyonlar menüsüne girip başka bölüme geçerken `doc.collections.forEach` çalışıyor, koleksiyon listesi henüz bulunmadığından geçiş yarıda kalıyordu. Process ve ayar alanlarında da benzer boş-veri varsayımları vardı.
+
+Panel artık çalışma kopyasında eksik liste/dil/alan kaplarını hazırlar; kaynak taslağı değiştirmez ve kendiliğinden görsel onayı vermez. İlk kurulumda form yakalama atlanır, eksik içerik kaydedilip yayımlanmaz; menüler kilitlenmez. Görseller, geçmiş, hesap ve yedek ekranlarına erişilebilir. Geçerli JSON yedeği boş panelde de taslağa aktarılabilir.
+
+Yalnız boş taslağa çalışan, yönetici yetkili `POST /api/initialize` kurtarma akışı eklendi. Gereken 95 medya kimliği ve filigran onayı kontrol edilir; eksik dosya varsa sayı bildirilir ve yazma yapılmaz. Başarılı işlem 40 eserlik başlangıç içeriğini, eser galerisi kapalı olarak yalnız taslağa kaydeder. Mevcut/yarım kullanıcı içeriğinin üzerine yazılması, eski sürümle kayıt ve oturumsuz çağrı reddedilir. Yayın ve global görünürlük değişmez. Supabase şeması değişmedi.
+
+`npm run qa`: **52/52 test**, üretim derlemesi ve özel varlık/anahtar dışlama kontrolleri başarılı. Wrangler 4.151.2 ile Pages Functions derlemesi de başarılı; başlangıç JSON'u sunucu paketine alınır, public çıktıya konmaz. Yeni regresyonlar boş/null/eksik taslak, menüde form yakalama, editör bölümlerinin render edilmesi, veri koruma, ilk kurulum yetkisi/sürüm/medya kontrolü ve otomatik yayın açılmamasını kapsar. Bu doğrulamalar canlı admin oturumu veya gerçek tarayıcı/mobil testi değildir; dağıtım bu ortamdan yapılmadı.

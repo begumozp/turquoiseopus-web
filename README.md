@@ -86,6 +86,10 @@ Remove-Item Env:OPUS_PASSWORD
 
 Araç dosya SHA-256 değerlerini denetler, zaten aktarılmış kimlikleri atlar, fotoğrafları özel kovaya yükler ve boş veritabanına 40 eserlik içeriği **taslak** olarak kaydeder. Yarıda kesilirse aynı komutu tekrar çalıştırabilirsiniz. Mevcut içerik varsa üzerine başlangıç verisi yazmaz. Yeniden aktarım görselleri halka açmaz. Canlı site adresini bilmeden veya hesap anahtarları olmadan bu aktarım bu teslimatta çalıştırılmadı.
 
+Fotoğraflar yüklendiği halde panel **İlk kurulum** gösteriyorsa **Genel bakış → Başlangıç içeriğini taslağa yükle** düğmesini kullanın. Panelde özel depodaki dosya sayısı görünür. Bu işlem yalnız boş taslakta, yönetici oturumuyla ve gereken 95 dosya mevcutken çalışır; mevcut içeriğin üzerine yazmaz. Eser galerisi kapalı hazırlanır, otomatik yayın veya görsel kilidi açılması yapılmaz. Eksik fotoğraf bildiriliyorsa Terminal'deki aynı aktarım komutunu tekrarlayın; yüklenen dosyalar atlanır.
+
+Boş/null veya bazı listeleri eksik taslak artık menü geçişlerini kilitlemez. İlk kurulum tamamlanana kadar içerik kaydı/yayın düğmeleri kapalıdır; görseller, yedek ve hesap ekranlarına erişilebilir.
+
 Sonra panelde giriş yapın → **Önizle** → içeriği kontrol edin → **Yayımla**. Metinler ve eser kartları hazır olur; fotoğraflar yine gizli kalır. Mühendis incelemesine kadar Ayarlar’daki açma düğmesini kullanmayın.
 
 İlk aktarım tamamlandıktan sonra ücretsiz Cloudflare Turnstile’ı yönetici girişine ekleyebilirsiniz: hostname’leri tanımlayıp iki `TURNSTILE_*` değişkenini girin ve redeploy edin. CLI ile giriş de açık olduğunda geçerli `OPUS_CHALLENGE` token’ı ister. Token tek kullanımlık ve kısa ömürlüdür; rutin yedeği paneldeki **Tam yedek ZIP** düğmesiyle almak daha kolaydır.
@@ -101,6 +105,14 @@ Sonra panelde giriş yapın → **Önizle** → içeriği kontrol edin → **Yay
 - **Site metinleri:** Başlıklar, About, FAQ, menü ve arayüz metinleri ayrı EN/NL/TR alanlarıdır. Metinler düz metindir; HTML/script çalıştırılmaz. Eser başlığı/açıklaması/medium için boş çeviri İngilizce karşılığa döner. Koleksiyon adları da boşsa İngilizce gösterilir.
 - **Process:** Fotoğraf, metin ve YouTube bağlantısı. Sayfa ve kayıt görünürlüğü ayrı yönetilir. Video ziyaretçi tıklamadan YouTube’a bağlanmaz.
 - **Ayarlar:** Ana sayfa yakın planı, isteğe bağlı mobil yakın plan, portre, gizlilik kilidi, JSON/tam ZIP yedeği, şifre değişimi.
+
+### Home, About ve koleksiyon kapakları açık; eser galerisi kapalı
+
+20.10.2026 güncellemesiyle **Ayarlar ve yedek → Eser galerisi → Eser galerisini ve tekil eser sayfalarını göster** kutusu eklendi. İşaretini kaldırıp **Kaydet → Önizle → Yayımla** uygulayın. Koleksiyonlar ekranında açık kalacak koleksiyonların **Sitede göster** kutusunu ve **Kapak eseri** seçimini kontrol edin. Fotoğrafı onaylı olmayan koleksiyon için kapak uydurulmaz.
+
+Bu düzen tekil eser kayıtlarını public API'den çıkarır, Gallery bağlantılarını gizler ve yalnız seçili kapak fotoğrafları ile Home/About fotoğraflarına izin verir. Kapakta kullanılan fotoğraf görünür; o eserin sayfası, bilgileri ve detay fotoğrafları açılmaz. Diğer eserlerin dosya URL'leri de 404 döner. Ayarı tekrar işaretleyip yayımlamak onaylı eser galerisini geri getirir.
+
+**Bütün resimleri gizle** ayrı acil kilittir: kapak, hero ve portreyi de kapatır. İstenen sınırlı düzeni önce kaydedip yayımlayın; önizleme kontrolünden sonra Ayarlar'daki **Mühendis onayıyla görselleri aç** düğmesiyle global kilidi açın. Kutuyu kapatmadan global kilidi açmak mevcut eser galerisini de görünür yapabilir. Yeni seçenek veritabanı şeması değişikliği veya fotoğrafları yeniden yükleme gerektirmez. Kod güncellemesi mevcut panel içeriğini sıfırlamaz.
 
 **Kaydet → Önizle → Yayımla.** Kaydet canlı siteyi değiştirmez. Önizle önce taslağı kaydeder ve yalnız yönetici oturumu ile açar. Yayımla taslağı atomik olarak canlı metaveriye aktarır. İki sekmede aynı sürümü değiştirmek sessizce veri ezmez; çakışmada yeniden yükleme gerekir. Kaydedilmemiş veriniz varsa önce kopyalayın.
 
@@ -138,7 +150,7 @@ Vercel Hobby kişisel/ticari olmayan kullanım içindir; bu Etsy’ye yönlendir
 
 ## 9. QA ve mühendis onayı
 
-`npm run qa` ile 38 test, üretim derlemesi, JavaScript sözdizimi ve özel fotoğrafların public çıktıda bulunmaması kontrolü çalışır. Testler gerçek SaaS hesabı yerine API mock’ları ve Node içinde render kontrolleri kullanır; canlı servis entegrasyonu ve cihaz testi olarak sunulmaz.
+`npm run qa` ile 52 test, üretim derlemesi, JavaScript sözdizimi ve özel fotoğrafların public çıktıda bulunmaması kontrolü çalışır. Testler gerçek SaaS hesabı yerine API mock’ları ve Node içinde render kontrolleri kullanır; canlı servis entegrasyonu ve cihaz testi olarak sunulmaz.
 
 Detay: `docs/QA_REPORT.md`. Tarayıcı kontrol listesi: `docs/BROWSER_QA.md`. Paneli kurtarma: **`docs/ADMIN_RECOVERY.md`**. Teknik kapsam: `docs/SPEC.md`.
 

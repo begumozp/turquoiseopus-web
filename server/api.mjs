@@ -1,4 +1,5 @@
 import {fail,validateDocument,publicDocument,allowedMedia,bulkPreview,applyBulk,mediaType,imageSize} from './model.mjs';
+import initialContent from '../seed/content.json' with {type:'json'};
 const COOKIE='opus_session',REFRESH='opus_refresh';
 const headers={'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store, max-age=0','X-Content-Type-Options':'nosniff','Referrer-Policy':'same-origin','Vary':'Cookie'};
 export function json(body,status=200,extra={}){return new Response(JSON.stringify(body),{status,headers:{...headers,...extra}});}
@@ -46,6 +47,17 @@ export async function handle(request,env,fetcher=fetch){
  await adminUser(request,env,b);
  if(path==='logout'&&method==='POST'){const token=decodeURIComponent(cookies(request)[COOKIE]||'');await b.auth('logout',{method:'POST',headers:{Authorization:'Bearer '+token}}).catch(()=>{});const r=json({ok:true});r.headers.append('Set-Cookie',cookie(COOKIE,'',0));r.headers.append('Set-Cookie',cookie(REFRESH,'',0));return r;}
  if(path==='state'&&method==='GET')return json(await b.state());
+ if(path==='initialize'&&method==='POST'){
+  const d=await body(request),s=await b.state();
+  if(d.version!==s.version)fail('Başka bir sekmede değişiklik var. Yeniden yükleyin.',409);
+  if(s.draft&&Object.keys(s.draft).length)fail('Taslakta zaten içerik var. Başlangıç içeriği üzerine yazılmadı.',409);
+  const document=structuredClone(initialContent);document.pages.artworks=false;validateDocument(document);
+  const media=await b.call('/rest/v1/opus_media?select=id,watermarked'),ids=new Set(media.filter(m=>m.watermarked).map(m=>m.id));
+  const missing=[...allowedMedia(document)].filter(id=>!ids.has(id));
+  if(missing.length)fail(`${missing.length} fotoğraf eksik veya filigran onaysız. Terminal'deki aktarım komutunu tekrar çalıştırın; yüklenen dosyalar atlanır.`);
+  const version=await b.call('/rest/v1/rpc/opus_commit',{method:'POST',body:JSON.stringify({expected:s.version,next_draft:document,publish_now:false,label:'initialize'})});
+  return json({version,artworks:document.artworks.length});
+ }
  if(path==='preview'&&method==='GET'){const s=await b.state();return json({...publicDocument(s.draft,false),preview:true});}
  if(path==='media'&&method==='GET')return json(await b.call('/rest/v1/opus_media?select=id,name,mime,bytes,watermarked,created_at&order=created_at.desc'));
  if(path==='media'&&method==='POST'){
