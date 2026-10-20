@@ -1,5 +1,5 @@
 import {fail,validateDocument,publicDocument,allowedMedia,bulkPreview,applyBulk,mediaType,imageSize} from './model.mjs';
-import initialContent from '../seed/content.json' with {type:'json'};
+import initialContent from './initial-content.mjs';
 const COOKIE='opus_session',REFRESH='opus_refresh';
 const headers={'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store, max-age=0','X-Content-Type-Options':'nosniff','Referrer-Policy':'same-origin','Vary':'Cookie'};
 export function json(body,status=200,extra={}){return new Response(JSON.stringify(body),{status,headers:{...headers,...extra}});}

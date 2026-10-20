@@ -88,3 +88,11 @@ Panel artık çalışma kopyasında eksik liste/dil/alan kaplarını hazırlar; 
 Yalnız boş taslağa çalışan, yönetici yetkili `POST /api/initialize` kurtarma akışı eklendi. Gereken 95 medya kimliği ve filigran onayı kontrol edilir; eksik dosya varsa sayı bildirilir ve yazma yapılmaz. Başarılı işlem 40 eserlik başlangıç içeriğini, eser galerisi kapalı olarak yalnız taslağa kaydeder. Mevcut/yarım kullanıcı içeriğinin üzerine yazılması, eski sürümle kayıt ve oturumsuz çağrı reddedilir. Yayın ve global görünürlük değişmez. Supabase şeması değişmedi.
 
 `npm run qa`: **52/52 test**, üretim derlemesi ve özel varlık/anahtar dışlama kontrolleri başarılı. Wrangler 4.151.2 ile Pages Functions derlemesi de başarılı; başlangıç JSON'u sunucu paketine alınır, public çıktıya konmaz. Yeni regresyonlar boş/null/eksik taslak, menüde form yakalama, editör bölümlerinin render edilmesi, veri koruma, ilk kurulum yetkisi/sürüm/medya kontrolü ve otomatik yayın açılmamasını kapsar. Bu doğrulamalar canlı admin oturumu veya gerçek tarayıcı/mobil testi değildir; dağıtım bu ortamdan yapılmadı.
+
+## 20.10.2026 — Pages Wrangler 3 uyumluluğu
+
+Kullanıcının canlı build günlüğünde statik üretim başarılı, Functions derlemesi ise Wrangler **3.114.17** altında `Expected ";" but found "with"` ile başarısızdı. Önceki Wrangler 4 kontrolü, eski paketleyicinin JSON import attribute desteği eksikliğini yakalamamıştı.
+
+`server/api.mjs` artık JSON import attribute yerine düz ES module olan `server/initial-content.mjs` dosyasını alır. Bu veri dosyası kanonik `seed/content.json` içeriğinden build sırasında üretilir ve kaynak paketinde de bulunur; testler iki içeriğin aynı olduğunu denetler. Node ve eski Wrangler aynı sözdizimini kullanır. Gizli anahtar, SQL, yüklenen medya, taslak ve yayın içeriği değişmez.
+
+**53/53 test**, üretim derlemesi, sözdizimi ve özel varlık/anahtar dışlama kontrolleri başarılı. Logdaki tam sürüm **Wrangler 3.114.17** ile `pages functions build functions` başarılı; ayrıca CI'ya bu sürümle derleme kontrolü eklendi. Bu, yerel derleme doğrulamasıdır; yeni GitHub commit'i ve Cloudflare dağıtımı kullanıcı hesabında uygulanmalıdır.

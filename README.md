@@ -150,7 +150,7 @@ Vercel Hobby kişisel/ticari olmayan kullanım içindir; bu Etsy’ye yönlendir
 
 ## 9. QA ve mühendis onayı
 
-`npm run qa` ile 52 test, üretim derlemesi, JavaScript sözdizimi ve özel fotoğrafların public çıktıda bulunmaması kontrolü çalışır. Testler gerçek SaaS hesabı yerine API mock’ları ve Node içinde render kontrolleri kullanır; canlı servis entegrasyonu ve cihaz testi olarak sunulmaz.
+`npm run qa` ile 53 test, üretim derlemesi, JavaScript sözdizimi ve özel fotoğrafların public çıktıda bulunmaması kontrolü çalışır. Testler gerçek SaaS hesabı yerine API mock’ları ve Node içinde render kontrolleri kullanır; canlı servis entegrasyonu ve cihaz testi olarak sunulmaz. GitHub QA ayrıca Pages ortamındaki Wrangler 3.114.17 ile Functions derlemesini denetler. Başlangıç içeriğinin taşınabilir JS modülü derleme sırasında `seed/content.json` dosyasından yenilenir; public çıktıya konmaz.
 
 Detay: `docs/QA_REPORT.md`. Tarayıcı kontrol listesi: `docs/BROWSER_QA.md`. Paneli kurtarma: **`docs/ADMIN_RECOVERY.md`**. Teknik kapsam: `docs/SPEC.md`.
 

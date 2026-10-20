@@ -1,6 +1,8 @@
 import {readFile,writeFile,cp,mkdir,rm,readdir} from 'node:fs/promises';
 import {validateDocument} from '../server/model.mjs';
 const seed=JSON.parse(await readFile('seed/content.json','utf8'));validateDocument(seed);
+// Plain JS data works in Node and in the older Wrangler used by Pages builds.
+await writeFile('server/initial-content.mjs','// Generated from seed/content.json by scripts/build.mjs.\nexport default '+JSON.stringify(seed)+';\n');
 await rm('dist',{recursive:true,force:true});await mkdir('dist',{recursive:true});await cp('public','dist',{recursive:true});
 const templates=JSON.parse(await readFile('seed/templates.json','utf8'));
 const routes=['index','gallery','about','faq','contact','process','privacy','404',...seed.collections.map(c=>'collection-'+c.id),...seed.artworks.filter(a=>a.visible&&a.approved&&a.main&&!a.archived).map(a=>'artwork-'+a.id)];
