@@ -2,3 +2,27 @@
 .collection-carousel:not(.carousel-ready) .carousel-stage{display:grid;place-items:center}.collection-carousel:not(.carousel-ready) .collection-card{width:min(420px,85vw)}[hidden]{display:none!important}
 .privacy-copy{max-width:52rem;white-space:pre-line;line-height:1.8;margin-bottom:2rem}
 [data-process-nav]{display:none}
+.contact-form .contact-status:empty {
+  display: none;
+}
+.contact-form .contact-status:not(:empty) {
+  box-sizing: border-box;
+  margin: 1rem 0 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid #8AB9B2;
+  border-left: 5px solid #247F80;
+  border-radius: 8px;
+  background: #EAF5F1;
+  color: #1C535B;
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  font-weight: 600;
+  line-height: 1.65;
+  opacity: 1;
+  overflow-wrap: anywhere;
+}
+.contact-form .contact-status.is-error:not(:empty) {
+  border-color: #BE806C;
+  border-left-color: #9B5138;
+  background: #FFF3EB;
+  color: #7C2E1F;
+}
